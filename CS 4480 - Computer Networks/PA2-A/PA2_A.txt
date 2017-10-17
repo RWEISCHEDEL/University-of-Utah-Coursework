@@ -1,0 +1,5 @@
+Robert Weischedel
+CS 4480 
+PA2_A
+Instructions on how to run program:
+Import all .java files into the IDE of your choice and then run the Project class file, its the one that contians the main method. 

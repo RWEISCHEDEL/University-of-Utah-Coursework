@@ -1,0 +1,16 @@
+#include "csapp.h"
+
+const char * const cc_args[] = { "./count_child", NULL };
+
+int main() {
+  pid_t pid;
+
+  pid = Fork();
+  if (pid == 0) {
+    Execve(cc_args[0], cc_args, environ);
+  } else {
+    Waitpid(pid, NULL, 0);
+  }
+
+  return 0;
+}

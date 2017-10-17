@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+
+  <width>1001</width>
+
+  <height>1001</height>
+
+  <updatespersecond>15</updatespersecond>
+
+  <max_split_distance>150</max_split_distance>
+
+  <top_speed>5</top_speed>
+
+  <min_speed>1</min_speed>
+
+  <playermovefactor>1</playermovefactor>
+
+  <maxteamcount>20</maxteamcount>
+
+  <minsplitmass>500</minsplitmass>
+
+  <maxsplitdistance>300</maxsplitdistance>
+
+  <splitjumpduration>2.0</splitjumpduration>
+
+  <timesplitcubesmerge>6.0</timesplitcubesmerge>
+
+  <absorbdelta>0.1</absorbdelta>
+
+  <virusmass>2000</virusmass>
+
+  <virusjumpdistance>300</virusjumpdistance>
+
+  <attritionlowermass>500</attritionlowermass>
+
+  <attritionrapidthreshold>3000</attritionrapidthreshold>
+
+  <normalattritionperupdate>1.0</normalattritionperupdate>
+
+  <highattritionperupdate>10.0</highattritionperupdate>
+
+  <newfoodperupdate>3</newfoodperupdate>
+
+  <initialfoodamt>2000</initialfoodamt>
+
+  <initialplayermass>2000</initialplayermass>
+
+  <maxfood>2500</maxfood>
+
+  <foodmass>1</foodmass>
+
+  <maxvirus>2</maxvirus>
+
+</parameters>

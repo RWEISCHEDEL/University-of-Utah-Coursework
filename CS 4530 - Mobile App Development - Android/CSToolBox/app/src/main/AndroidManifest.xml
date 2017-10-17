@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.utah.cs4530.cstoolbox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BigConverter"></activity>
+        <activity android:name=".MainConverterActivity"></activity>
+        <activity android:name=".IEEE754ConverterActivity"></activity>
+        <activity android:name=".Base64ConverterActivity"></activity>
+        <activity android:name=".ValidateCSVActivity"></activity>
+        <activity android:name=".ValidateJSONActivity"></activity>
+        <activity android:name=".ValidateXMLActivity"></activity>
+        <activity android:name=".BitShiftingActivity"></activity>
+        <activity android:name=".URLConverterActivity"></activity>
+        <activity android:name=".XMLAndJSONConverter"></activity>
+        <activity android:name=".CSVToXMLConverterActivity"></activity>
+        <activity android:name=".CSVToJSONConverterActivity"></activity>
+    </application>
+
+</manifest>

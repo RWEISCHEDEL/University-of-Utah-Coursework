@@ -1,0 +1,177 @@
+/* This is the main file for the `whoosh` interpreter and the part
+   that you modify. */
+
+// Robert Weischedel
+// u0887905
+// CS 4400 - Shell Lab
+
+#include <stdlib.h>
+#include <stdio.h>
+#include "csapp.h"
+#include "ast.h"
+#include "fail.h"
+
+pid_t procedure;
+int procedureCount;
+
+static void run_script(script *scr);
+static void run_group(script_group *group);
+static void run_command(script_command *command);
+static void set_var(script_var *var, int new_value);
+static void setState(script_var script, int state);
+static void endProc(int id);
+
+/* You probably shouldn't change main at all. */
+
+int main(int argc, char **argv) {
+  script *scr;
+
+  if ((argc != 1) && (argc != 2)) {
+    fprintf(stderr, "usage: %s [<script-file>]\n", argv[0]);
+    exit(1);
+  }
+
+  scr = parse_script_file((argc > 1) ? argv[1] : NULL);
+
+  run_script(scr);
+
+  return 0;
+}
+
+static void run_script(script *scr) {
+  int i;
+  for(i = 0; i < scr->num_groups; i++){
+    run_group(&scr->groups[i]);
+  }
+}
+
+static void run_group(script_group *group) {
+  int commandID[group->num_commands];
+
+  int i;
+  for(i = 0; i < group->repeats; i++){
+    int pid;
+    int state;
+
+    if(group->mode == 0){
+
+      pid = Fork();
+      if(pid == 0){
+        Setpgid(0,0);
+        run_command(&group->commands[0]);
+      }
+
+      if(group->commands[0].pid_to != NULL){
+        set_var(group->commands[0].pid_to,pid);
+      }
+
+      commandID[0] = pid;
+
+      Waitpid(pid,&state,0);
+
+      if(group->result_to != NULL){
+        if(WIFSIGNALED(state)){
+          set_var(group->result_to, -WTERMSIG(state));
+        }
+        else if(WIFEXITED(state)){
+          set_var(group->result_to, WEXITSTATUS(state));
+        }
+      }
+
+    }
+    else if(group->mode == 2){
+
+      int j;
+      for(j = 0; j < group->num_commands; j++){
+        pid = Fork();
+        if(pid == 0){
+          Setpgid(0,0);
+          run_command(&group->commands[j])
+        }
+
+        commandID[j] = pid;
+        if(group->commands[0].pid_to != NULL){
+          set_var(group->commands[0].pid_to,pid);
+        }
+      }
+
+      Waitpid(-1, &state, 0);
+
+      if(group->result != NULL){
+        setState(group->result_to, state);
+      }
+
+      int k;
+      for(k = 0; k < group->num_commands; k++){
+        if(pid != commandID[k]){
+          Kill(commandID[k],SIGTERM);
+          Waitpid(commandID[k],&state,0);
+        }
+      }
+
+    }
+    else if(group->mode == 1){
+      int in = 0;
+      int fds[2];
+
+      int l;
+      for(l = 0; l < group->num_commands - 1; l++){
+        Pipe(fds);
+
+        pid = Fork();
+        if(pid == 0){
+          Setpgid(0,0);
+        }
+      }
+    }
+
+
+
+
+  }
+}
+
+static void setState(script_var script, int state){
+  if (WIFSIGNALED(state)){
+    set_var(script, -WTERMSIG(state));
+  }
+  else if(WIFEXITED(state)){
+    set_var(script, WEXITSTATUS(state));
+  }
+}
+
+
+
+/* This run_command function is a good start, but note that it runs
+   the command as a replacement for the `whoosh` script, instead of
+   creating a new process. */
+
+static void run_command(script_command *command) {
+  const char **argv;
+  int i;
+
+  argv = malloc(sizeof(char *) * (command->num_arguments + 2));
+  argv[0] = command->program;
+  
+  for (i = 0; i < command->num_arguments; i++) {
+    if (command->arguments[i].kind == ARGUMENT_LITERAL)
+      argv[i+1] = command->arguments[i].u.literal;
+    else
+      argv[i+1] = command->arguments[i].u.var->value;
+  }
+  
+  argv[command->num_arguments + 1] = NULL;
+
+  Execve(argv[0], (char * const *)argv, environ);
+}
+
+/* You'll likely want to use this set_var function for converting a
+   numeric value to a string and installing it as a variable's
+   value: */
+
+static void set_var(script_var *var, int new_value) {
+  char buffer[32];
+  free((void *)var->value);
+  snprintf(buffer, sizeof(buffer), "%d", new_value);
+  var->value = strdup(buffer);
+}

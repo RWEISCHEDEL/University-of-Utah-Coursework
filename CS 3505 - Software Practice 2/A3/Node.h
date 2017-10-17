@@ -1,0 +1,38 @@
+/***********************************
+ * Robert Weischedel
+ * CS 3505
+ * A3 - Binary Trie
+ * Node.h
+ **********************************/
+
+// Include unique include gaurds so the .h file won't be confused with others.
+#ifndef A3_NODE_H
+#define A3_NODE_H
+
+// Include all the needed libraries.
+using namespace std;
+
+#include<vector>
+#include<string>
+
+/*This class serves as the individual nodes in the binary trie structure.*/
+class Node{
+
+    // Declare the pointer array and the bool word flag each node will contain.
+private:
+    Node *alphabetArray[26];
+    bool isWordFlag;
+
+    // Declare all the methods that the Node class should implement.
+public:
+    Node();
+    Node* addChar(char);
+    Node* hasChar(char);
+    void setWordFlag();
+    bool getWordFlag();
+    void destroyNode();
+    void copyNode(Node*);
+    vector<string> retrievePrefixWords(vector<string>*, string, string);
+};
+
+#endif

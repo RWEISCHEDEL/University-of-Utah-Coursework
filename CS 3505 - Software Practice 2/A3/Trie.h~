@@ -1,0 +1,29 @@
+/***********************************
+ * Robert Weischedel
+ * CS 3505
+ * A3 - Binary Trie
+ * Trie.h
+ **********************************/
+
+#ifndef A3_TRIE_H
+#define A3_TRIE_H
+
+#include <iostream>
+#include <vector>
+#include "Node.h"
+
+class Trie{
+
+public:
+    Node* rootNode;
+    Trie();
+    Trie(const Trie&);
+    ~Trie();
+    Trie& operator=(Trie);
+    void addWord(std::string);
+    bool isWord(std::string);
+    std::vector<std::string> allWordsWithPrefix(std::string);
+
+};
+
+#endif

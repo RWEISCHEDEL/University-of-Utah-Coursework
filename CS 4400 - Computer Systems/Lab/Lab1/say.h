@@ -1,0 +1,1 @@
+void speak(char *str);

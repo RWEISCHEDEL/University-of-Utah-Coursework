@@ -1,0 +1,62 @@
+/*******************
+ * Robert Weischedel
+ * CS 3505
+ * Assignmnet 2
+ * spiralPDF.cpp
+ *******************/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <iostream>
+#include "HaruPDF.h"
+#include "Spiral.h"
+
+int main(int argc, char *argv[]){
+
+    int i = 0;
+
+    // Names for the desired file name and font type.
+    std::string fileName = "spiralPDFTest.pdf";
+
+    std::string fontName = "Helvetica";
+
+    // Value for desired font size.
+    int fontSize = 20;
+
+    // Create a HaruPDF obj to build all the baiscs of the desired pdf.
+    HaruPDF pdfGenerator;
+
+    // Create a Spiral obj to generate the values to print the spiral text.
+    Spiral spiralGenerator (210, 300, 180, 6, 6);
+
+    // Arrays to store the file name and font type, also convert them both from strings to char arrays.
+    char fontNameArr[1024];
+
+    char fileNameArr[1024];
+
+    strcpy(fontNameArr, fontName.c_str());
+
+    strcpy(fileNameArr, fileName.c_str());
+
+    // Set up the
+    pdfGenerator.SetTextAndFont(fontNameArr, fontSize);
+
+    std::string inputText = argv[1];
+
+    const char* inputCharacters = inputText.c_str();
+
+    for(int i; i < strlen(inputCharacters); i++){
+
+        pdfGenerator.SetPDFLetters(inputCharacters[i], spiralGenerator.get_spiral_angle, spiralGenerator.get_text_x(), spiralGenerator.get_text_y());
+
+        spiralGenerator++;
+
+    }
+
+     pdfGenerator.GenerateFile(fileNameArr);
+
+    return 0;
+
+}

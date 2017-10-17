@@ -1,0 +1,15 @@
+# Sleeps for 3000 seconds - can interrupt with three Ctl-Cs
+
+repeat 3 /bin/bash -c "sleep 1000"
+/bin/echo done
+
+# Needed input:
+#  sleep 0.5
+#  ctl-c
+#  sleep 0.5
+#  ctl-c
+#  sleep 0.5
+#  ctl-c
+
+# Expected output:
+#  done

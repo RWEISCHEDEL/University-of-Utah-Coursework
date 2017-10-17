@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;timesToLoop&apos; in &apos;assignment10.Question7TimingTests.main(...)&apos; to &apos;addedItems&apos;&#x0D;&#x0A;- Original project: &apos;CS 2420&apos;&#x0D;&#x0A;- Original element: &apos;assignment10.Question7TimingTests.main(String[]).timesToLoop&apos;&#x0D;&#x0A;- Renamed element: &apos;timesToLoop&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;timesToLoop&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;assignment10{Question7TimingTests.java[Question7TimingTests~main~\[QString;@timesToLoop!1156!1179!1161!1171!J!0!false" name="addedItems" references="true" stamp="1428008862134" version="1.0"/>
+</session>

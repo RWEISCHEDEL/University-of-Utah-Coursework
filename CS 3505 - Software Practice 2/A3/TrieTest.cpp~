@@ -1,0 +1,82 @@
+/***********************************
+ * Robert Weischedel
+ * CS 3505
+ * A3 - Binary Trie
+ * TrieTest.cpp
+ **********************************/
+
+using namespace std;
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include "Trie.h"
+#include "Node.h"
+
+int main(int argc, const char * argv[]){
+
+    if(argc != 3){
+        cout << "You didn't enter the correct number of files!" << endl;
+        return 0;
+    }
+
+    string dictionaryFile = argv[1];
+    string queriesFile = argv[2];
+
+    string inputLine = "";
+
+    Trie* binTrie = new Trie();
+
+    ifstream wordDict;
+
+    wordDict.open(dictionaryFile);
+
+    if(wordDict.is_open()){
+        while(getline(wordDict, inputLine)){
+            cout << "About to add : " << inputLine << endl;
+            binTrie->addWord(inputLine);
+            cout << "Did I add " << inputLine << binTrie->isWord(inputLine) << endl;
+        }
+    }
+    else{
+        cout << "The input dictionary encountered an issue." << endl;
+        return 0;
+    }
+
+    inputLine = "";
+
+    ifstream wordQueries;
+
+    wordQueries.open(queriesFile);
+
+    if(wordQueries.is_open()){
+        while(getline(wordQueries, inputLine)){
+            if(binTrie->isWord(inputLine)){
+                cout << "The word " + inputLine + " was found." << endl;
+            }
+            else{
+                vector<string> wordsFromDict = binTrie->allWordsWithPrefix(inputLine);
+                if(wordsFromDict.size() != 0){
+                    cout << "The word " << inputLine << " was not found, here are a few suggestions instead :" << endl;
+                    for(string & word : wordsFromDict){
+                        cout << word << endl;
+                    }
+                }
+                else{
+                    cout << "The word " << inputLine << " was not found, with no suggestions as well." << endl;
+                }
+            }
+        }
+    }
+    else{
+        cout << "Issue reading the queries file." << endl;
+        return 0;
+        }
+
+
+    delete binTrie;
+
+    return 0;
+
+}

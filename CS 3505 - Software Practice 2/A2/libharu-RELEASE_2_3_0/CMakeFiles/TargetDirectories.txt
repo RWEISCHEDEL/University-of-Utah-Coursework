@@ -1,0 +1,2 @@
+/home/weisched/cs3505/libharu-RELEASE_2_3_0/src/CMakeFiles/hpdf.dir
+/home/weisched/cs3505/libharu-RELEASE_2_3_0/src/CMakeFiles/hpdfs.dir

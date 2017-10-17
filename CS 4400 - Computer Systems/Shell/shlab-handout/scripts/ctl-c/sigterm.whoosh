@@ -1,0 +1,12 @@
+# Check that a Ctl-C causes SIGTERM to be sent from
+# whoosh, and not a Ctl-C sent to a child process
+
+$result = /bin/sleep 1000
+/bin/echo $result
+
+# Needed input:
+#  sleep 0.5
+#  ctl-c
+
+# Expected output:
+#  -15

@@ -1,0 +1,16 @@
+# This script isn't meant to be run, but just
+# to be used as a test for the parser
+
+a
+a | b
+a || b
+a | b | c
+a || b || c || d
+
+repeat 1 a | b
+repeat 10 a | b
+repeat 100 $x = a | b c d e
+repeat 1000 $x = a | b $x "this has spaces"
+
+a @ $x
+a @ $x | b

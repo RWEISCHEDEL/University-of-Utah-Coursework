@@ -1,0 +1,113 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.TreeSet;
+
+/**
+ * This class is a timing experiment for CS 4150 to test the timing behavior to
+ * look up all items in a TreeSet as its size doubles. This program is used in
+ * Assignment A1. The shell came from the example that Dr. Zachary showed us in
+ * class.
+ * 
+ * @author Robert Weischedel & Joe Zachary u0887905 CS 4150 1/20/16
+ *
+ */
+public class A1TreeSetTimingExperiment {
+
+	/**
+	 * This method is the heart of the timing code. It first creates a TreeSet
+	 * and an ArrayList, the ArrayList is filled with the desired size of
+	 * elements and then it is shuffled. The shuffled ArrayList is then added to
+	 * the TreeSet so that it is in random order. Then I search through all the
+	 * elements in the TreeSet once to warm up the data and then the experiment
+	 * is performed. A double nested for loop is run to first ensure that the
+	 * timing test lasts at least once second and then the inner loop actually
+	 * does the searching through the TreeSet. The same loop is ran again in
+	 * order to figure out the timing overhead.
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		// Declare the variables to hold the times for the experiment.
+		long start, stop;
+
+		// Create the TreeSet and ArrayList
+		TreeSet<Integer> tree = new TreeSet<Integer>();
+
+		ArrayList<Integer> randomFill = new ArrayList<Integer>();
+
+		// Generate the desired size of the TreeSet.
+		int size = (int) Math.pow(2, 13);
+
+		// Add all the values of the desired size to the ArrayList. aka : 0 -
+		// size -1
+		for (int i = 0; i < size; i++) {
+
+			randomFill.add(i);
+
+		}
+
+		// Shuffle and randomize the ArrayList in order to add it too the
+		// TreeSet, to generate a random TreeSet.
+		Collections.shuffle(randomFill);
+
+		for (int i = 0; i < randomFill.size(); i++) {
+			tree.add(randomFill.get(i));
+		}
+
+		// Warm up the data by searching through the tree set
+		for (int i = 0; i < size; i++) {
+			tree.contains(i);
+		}
+
+		// Declare the variables to hold the about of time that has elapsed for
+		// the test and the number of repititions.
+		double timeElapsed = 0;
+		long repetitions = 1;
+
+		// The double nested for loop that is the heart of the timing code. The
+		// outer loop ensures that the experiment runs for atleast once
+		// second and the inner loop searches for the desired values.
+		do {
+			repetitions *= 2;
+
+			start = System.currentTimeMillis();
+			for (int i = 0; i < repetitions; i++) {
+				for (int j = 0; j < size; j++) {
+					tree.contains(j);
+				}
+
+			}
+			stop = System.currentTimeMillis();
+			timeElapsed = timeElapsed + (stop - start);
+		} while (timeElapsed < 1000);
+
+		double totalExperimentAvg = timeElapsed / repetitions;
+
+		// Reset the values and peform the experiment again except wihtot the
+		// searching portion in order to get the timing overhead.
+		timeElapsed = 0;
+		repetitions = 1;
+
+		do {
+			repetitions *= 2;
+			start = System.currentTimeMillis();
+			for (int i = 0; i < repetitions; i++) {
+				for (int j = 0; j < size; j++) {
+
+				}
+			}
+			stop = System.currentTimeMillis();
+			timeElapsed = timeElapsed + (stop - start);
+		} while (timeElapsed < 1000);
+
+		// Calculate the timing overhead and print out the total experiment
+		// time.
+		double timingOverheadAvg = timeElapsed / repetitions;
+
+		System.out
+				.println(((totalExperimentAvg - timingOverheadAvg) / size) * 1000);
+
+	}
+
+}

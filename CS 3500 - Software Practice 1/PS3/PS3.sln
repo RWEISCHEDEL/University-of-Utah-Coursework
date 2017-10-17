@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formula", "Formula\Formula.csproj", "{72349CAF-D10F-41E4-87EA-65D827184F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaTester", "FormulaTester\FormulaTester.csproj", "{988B63E6-01BF-4B64-8AAD-7A7D34D87DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS3GradedTester", "PS3GradedTester\PS3GradedTester.csproj", "{984831BF-9548-4970-B801-717F3A6F394F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72349CAF-D10F-41E4-87EA-65D827184F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72349CAF-D10F-41E4-87EA-65D827184F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72349CAF-D10F-41E4-87EA-65D827184F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72349CAF-D10F-41E4-87EA-65D827184F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988B63E6-01BF-4B64-8AAD-7A7D34D87DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988B63E6-01BF-4B64-8AAD-7A7D34D87DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988B63E6-01BF-4B64-8AAD-7A7D34D87DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988B63E6-01BF-4B64-8AAD-7A7D34D87DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984831BF-9548-4970-B801-717F3A6F394F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984831BF-9548-4970-B801-717F3A6F394F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984831BF-9548-4970-B801-717F3A6F394F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984831BF-9548-4970-B801-717F3A6F394F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+# Run `ls -l`
+
+/bin/ls -l
+
+# Expect output matching:
+#  .*

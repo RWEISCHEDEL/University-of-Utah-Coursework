@@ -1,0 +1,12 @@
+# Suspends a `sleep` process, so script should not complete without
+# Ctl-C to terminate the process
+
+/bin/sleep 3 @ $sleep | /bin/kill -TSTP $sleep
+/bin/echo done
+
+# Needed input:
+#  sleep 1
+#  ctl-c
+
+# Expected output:
+#  done

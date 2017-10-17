@@ -1,0 +1,13 @@
+# Prints a patience level of 1 if you wait 3 seconds, 0 if you hit
+# Ctl-C before that
+
+$result = /bin/sleep 3
+$patience = /bin/test $result -lt 0
+/bin/echo "Patience level =" $patience
+
+# Needed input:
+#  sleep 1
+#  ctl-c
+
+# Expected output:
+#  Patience level = 0

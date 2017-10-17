@@ -1,0 +1,8 @@
+# A `kill 0` in `bash` terminates the `bash` process itself,
+# as well as any other process in the same process group
+
+$result = /bin/bash -c "kill 0"
+/bin/echo $result
+
+# Expected output:
+#  -15

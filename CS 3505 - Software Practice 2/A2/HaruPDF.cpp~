@@ -1,0 +1,67 @@
+/*******************
+ * Robert Weischedel
+ * CS 3505
+ * Assignmnet 2
+ * HaruPDF.cpp
+ *******************/
+using namespace std;
+
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string>
+#include <math.h>
+#include "HaruPDF.h"
+#include "hpdf.h"
+
+HPDF_Doc pdf;
+HPDF_Page page;
+char fname[256];
+HPDF_Font font;
+
+HaruPDF::HaruPDF(){
+
+    pdf = HPDF_New(NULL, NULL);
+
+    page = HPDF_AddPage(pdf);
+
+    HPDF_Page_SetSize(page, HPDF_PAGE_SIZE_A5, HPDF_PAGE_PORTRAIT);
+
+    HPDF_Page_SetTextLeading(page, 20);
+
+    HPDF_Page_SetGrayStroke(page, 0);
+
+    HPDF_Page_BeginText(page);
+
+}
+
+void HaruPDF::SetTextAndFont(char* fontName, int fontSize){
+
+    font = HPDF_GetFont(pdf, fontName, NULL);
+
+    HPDF_Page_SetFontAndSize(page, font, fontSize);
+}
+
+void HaruPDF::SetPDFLetters(char letter, double angle, double x, double y){
+
+    char buffer[2];
+
+    HPDF_Page_SetTextMatrix(page, cos(angle), sin(angle), -sin(angle), cos(angle), x, y);
+
+    buffer[0] = letter;
+
+    buffer[1] = 0;
+
+    HPDF_Page_ShowText(page,buffer);
+
+}
+
+
+void HaruPDF::GenerateFile(char* filename){
+
+    HPDF_Page_EndText(page);
+
+    HPDF_SaveToFile(pdf,filename);
+
+    HPDF_Free(pdf);
+}

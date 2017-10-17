@@ -1,0 +1,25 @@
+# Nicholas Lloyd
+# u0949261
+# CS 3505
+# Assignment 3
+
+# Flags
+CC=g++
+CFLAGS=-Wall -std=c++11
+
+# Create the .a
+TrieTest: Trie.o Node.o TrieTest.cpp
+	$(CC) $(CFLAGS) TrieTest.cpp Trie.o Node.o -o TrieTest
+
+# Create the Trie.o file
+Trie.o: Trie.h Trie.cpp
+	$(CC) $(CFLAGS) -c -I. Trie.cpp
+
+# Create the Node.o file
+Node.o: Node.cpp Node.h
+	$(CC) $(CFLAGS) -c -I. Node.cpp
+
+# Remove crap
+clean:
+	rm *.o
+	rm TrieTest

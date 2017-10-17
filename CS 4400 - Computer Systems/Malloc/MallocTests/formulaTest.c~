@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+
+    // 1 Word = 16 Byte Aligned
+    int byteAligned = 16;
+    int[] byteSizes = {8, 14, 24, 32};
+
+    int i;
+    for(i = 0; i < byteSizes.length; i++){
+        int size = byteSizes[i] - 1;
+        int pageSize = 1 + ((size/16)) + ((size%16) / 8);
+        printf("%d", pageSize);
+
+    }
+
+
+
+    return 0;
+}

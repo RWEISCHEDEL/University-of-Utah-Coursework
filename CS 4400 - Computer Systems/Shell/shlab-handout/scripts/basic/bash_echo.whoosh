@@ -1,0 +1,6 @@
+# Prints 42 via the result code from `bash`:
+$x = /bin/bash -c "exit 42"
+/bin/echo $x
+
+# Expected output:
+#  42

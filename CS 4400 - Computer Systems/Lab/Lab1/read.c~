@@ -1,0 +1,10 @@
+/*********************************
+ * Robert Weischedel
+ * Lab 1 Example - Hello World
+ *
+ ********************************/
+
+int main(){
+    printf("Hello, World!");
+    return 0;
+}

@@ -1,0 +1,12 @@
+# Count the number of times that "ELF" appears in two
+# copies of the "elf.h" system header, and do that five
+# times
+
+repeat 5 /bin/cat /usr/include/elf.h /usr/include/elf.h | /usr/bin/grep ELF | /usr/bin/wc -l
+
+# Expected output:
+#  152
+#  152
+#  152
+#  152
+#  152

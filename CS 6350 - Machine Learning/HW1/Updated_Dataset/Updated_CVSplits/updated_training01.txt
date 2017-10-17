@@ -1,0 +1,111 @@
+- Robert E. Kahn
++ Tim Berners-Lee
++ Leonid Levin
+- Shafi Goldwasser
+- David F. Bacon
+- Susan L. Graham
+- C. J. van Rijsbergen
++ Kurt Bollacker
++ Narendra Karmarkar
++ Gerrit Blaauw
++ Mark Overmars
++ Gordon Bell
++ Marco Dorigo
++ Peter Chen
++ Nils Nilsson
++ Konrad Zuse
++ Martin Richards
+- Adi Shamir
++ William Kahan
++ George Boole
+- Cliff Shaw
+- Christopher J. Date
+- Winston W. Royce
+- V. K. Govindan
++ Jim Gray
++ Gary William Flake
++ Bruce Arden
++ Larry Wall
++ Tom Gruber
++ Yuri Matiyasevich
++ Daphne Koller
++ Brian Cantwell Smith
++ David Karger
++ Charles E. Leiserson
++ Peter Wegner
+- Sjaak Brinkkemper
+- Azriel Rosenfeld
++ Lotfi Zadeh
++ Sebastian Thrun
++ Samir Das
++ Radia Perlman
++ Paul Vixie
++ David Eppstein
++ Sankar Pal
+- John Vincent Atanasoff
+- Willem van der Poel
++ Rod Brooks
+- Adam Riese
+- Franklin H. Westervelt
+- Alan Dix
++ David P. Reed
++ Peter Bernus
++ Ronald Stamper
++ Daniel Sleator
++ Moshe Vardi
++ Paul Dourish
+- Samson Abramsky
+- Edward F. Moore
++ Zohar Manna
+- Alonzo Church
++ Ken Forbus
+- Steve Schneider
++ Herman Hollerith
+- Bryan Cantrill
++ Jaime Teevan
+- Alain Colmerauer
+- Ryan Dahl
++ Dorothy Blum
++ Douglas Engelbart
++ James D. Foley
+- Munindar P. Singh
++ James Hendler
++ Jonathan Schaeffer
+- Per Brinch Hansen
++ W. Bruce Croft
++ Joseph Halpern
++ Paul Justin Compton
+- Steve Wozniak
++ Luca Cardelli
+- Andrew Ng
+- James G. Nell
+- Shmuel Winograd
++ George Sadowsky
+- David H. D. Warren
++ David A. Huffman
+- Christopher Riche Evans
+- Chris McKinstry
++ David Korn
+- Jean E. Sammet
+- Robert C. Martin
++ Walter Savitch
++ Mario Szegedy
+- G.M. Nijssen
+- T. William Olle
++ Nigel Shadbolt
++ Jean Ichbiah
++ Eugene Luks
++ Mihai Nadin
+- Guido van Rossum
++ Terry Winograd
++ Robin Milner
++ Vijay Vazirani
++ Charles P. Thacker
++ Richard Karp
+- Herbert A. Simon
++ Gio Wiederhold
++ Dan Jurafsky
++ Richard E. Stearns
+- Sanjeev Arora
++ Zoubin Ghahramani
+- Scott Fahlman

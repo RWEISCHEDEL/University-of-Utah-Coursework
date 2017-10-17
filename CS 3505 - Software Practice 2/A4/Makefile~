@@ -1,0 +1,35 @@
+# Nicholas Lloyd
+# u0949261
+# Tanner Martin
+# u0718593
+# CS 3505
+# Assignment 4
+
+# Flags
+ifndef $(CXX)
+CXX=g++ -std=c++11
+endif
+
+IFLAGS=-L./gtest -I./gtest/include -lgtest -lgtest_main -lpthread
+
+
+# Create the .a
+GoogleTest: Trie.o Node.o
+$(CXX) -o GoogleTest Trie.o Node.o test.cpp $(IFLAGS)
+
+# Create the Trie.o file
+Trie.o: Trie/Trie.h Trie/Trie.cpp
+$(CXX) -c -I. Trie/Trie.cpp
+
+# Create the Node.o file
+Node.o: Trie/Node.cpp Trie/Node.h
+$(CXX) -c -I. Trie/Node.cpp
+
+# Remove crap
+clean:
+rm *.o
+rm GoogleTest
+
+# Automated Test
+test:
+./GoogleTest

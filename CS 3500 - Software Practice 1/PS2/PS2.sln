@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadsheetUtilities", "SpreadsheetUtilities\SpreadsheetUtilities.csproj", "{3B9B033B-6A18-4090-B2BE-703F8919A182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyTests", "DependencyTests\DependencyTests.csproj", "{968048D0-F194-40DA-AE5F-86D038C8257A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPS2Tester", "MyPS2Tester\MyPS2Tester.csproj", "{A985889E-B7A2-4776-9902-304B2CBA9FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B9B033B-6A18-4090-B2BE-703F8919A182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9B033B-6A18-4090-B2BE-703F8919A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9B033B-6A18-4090-B2BE-703F8919A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9B033B-6A18-4090-B2BE-703F8919A182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968048D0-F194-40DA-AE5F-86D038C8257A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968048D0-F194-40DA-AE5F-86D038C8257A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968048D0-F194-40DA-AE5F-86D038C8257A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968048D0-F194-40DA-AE5F-86D038C8257A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A985889E-B7A2-4776-9902-304B2CBA9FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A985889E-B7A2-4776-9902-304B2CBA9FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A985889E-B7A2-4776-9902-304B2CBA9FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A985889E-B7A2-4776-9902-304B2CBA9FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+# Sends a rumor through several processes:
+
+/bin/echo -n rumor | /bin/cat | /bin/cat | /usr/bin/wc -c
+
+# Expected output:
+#  5

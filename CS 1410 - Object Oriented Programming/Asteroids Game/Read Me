@@ -1,0 +1,17 @@
+Please Read:
+	This project was completed by Robert Weischedel && Makenzie Elliott
+	
+	Extra Extensions:
+	
+	Random ship teleport, press T and the ship will teleport to a random location on the screen. But
+	be warned, you run the risk of teleporting into an asteroid.
+	
+	Notice if you are playing the game there will be a small heart shaped piece that will appear on screen.
+	If you collide the ship with this piece you will gain and extra life, you cannot shoot the heart you must
+	drive into it. However, if an asteroid hits the heart piece before you reach it it will be destroyed.
+	
+	Note:
+	We had some lag issues when we ran our Program with older versions of Java on the Windows Lab computers.
+	So if this occurs, we will be more than happy to show you our program on a different system to show 
+	that the game works properly and efficiently with newer Java versions. 
+	

@@ -1,0 +1,18 @@
+Draw memory with 8-byte boxes (instead of 16-byte values)
+ after each step below.
+Use an 8-byte header/footer with the low bit encoding
+ free or allocated (not a 16-byte header or footer).
+Assume a 192-byte (= 24 * 8) allocation area.
+Allocate payloads with 16-byte alignment.
+Include prolog and terminator blocks.
+Use an explicit free list.
+Show hex or decimal values in each box (i.e. not "words").
+
+----------------------------------------
+
+p1 = malloc(48);
+p2 = malloc(24);
+p3 = malloc(5);
+free(p3);
+free(p1);
+free(p2);

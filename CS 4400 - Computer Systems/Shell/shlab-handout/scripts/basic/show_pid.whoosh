@@ -1,0 +1,7 @@
+# Show the PID of a "/usr/bash" process, which
+# should be a non-0 value
+
+/bin/bash -c "exit 0" @ $bash | /bin/echo $bash
+
+# Expect output matching:
+#  ^[1-9][0-9]*\s$

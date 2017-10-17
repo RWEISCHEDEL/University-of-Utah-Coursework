@@ -1,0 +1,8 @@
+# The `bash` process kills the `sleep` process and then waits,
+# so the sleep process should terminate with SIGALRM.
+
+$result = /bin/sleep 1000 @ $sleep || /bin/bash -c "kill -s SIGALRM $0; sleep 1" $sleep
+/bin/echo $result
+
+# Expected output:
+#  -14

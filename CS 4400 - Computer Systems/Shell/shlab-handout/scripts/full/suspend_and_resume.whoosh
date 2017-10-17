@@ -1,0 +1,17 @@
+# Similar to "show_pid.whoosh", but uses the PID to
+# terminate a sleeping process
+
+/bin/sleep 2 @ $sleep | /bin/kill -TSTP $sleep
+
+/bin/echo resume
+/bin/kill -CONT $sleep
+
+/bin/echo wait
+# Should wait about 2 more seconds before finishing
+
+# Expected output:
+#  resume
+#  wait
+
+# Minimum seconds:
+#  2

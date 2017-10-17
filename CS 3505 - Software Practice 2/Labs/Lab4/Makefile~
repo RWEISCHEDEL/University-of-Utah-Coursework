@@ -1,0 +1,12 @@
+CC = g++
+
+mainTest: main.cpp
+	$(CC) main.cpp -o mainTest
+
+
+clean:
+	rm *.o
+	rm mainTest
+
+test:
+	./mainTest

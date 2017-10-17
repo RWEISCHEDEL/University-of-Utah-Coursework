@@ -1,0 +1,111 @@
+- Fred Brooks
++ Harry Bouwman
++ Mihai Pătraşcu
++ Hans Zantema
++ Peter J. Denning
+- Brendan Eich
++ Hugo de Garis
++ Bernard Galler
+- Andries van Dam
++ Mihalis Yannakakis
++ Ramesh Sitaraman
++ James Martin
++ David A. Patterson
+- Claude Shannon
+- Anil K. Jain
++ John Koza
+- Ada Lovelace
++ Seymour Cray
++ Douglas Lenat
++ George Novacky
+- Shlomo Zilberstein
+- Éva Tardos
++ Margaret Hamilton
++ Richard Hamming
++ Tom Lane
++ Bernhard Thalheim
++ Patrick Cousot
++ Dorothy E. Denning
+- Stephen Cook
++ Gerald Jay Sussman
+- John P. Moon
++ Joshua Lederberg
++ W. Richard Stevens
++ Jerre Noe
++ Donald Firesmith
++ Tommy Flowers
++ Carroll Morgan
++ Rajeev Motwani
++ Mark Weiser
++ William Wulf
+- Richard J. Lipton
+- Roland Carl Backhouse
++ Ron Rivest
+- Mary Allen Wilkes
++ Peter Eades
++ Yann LeCun
+- Glen Culler
++ Richard DeMillo
++ Richard Gabriel
+- Edmund M. Clarke
+- Andrey Ershov
++ Julia Hirschberg
++ Johan Håstad
++ David Waltz
++ Valerie Taylor
+- Thomas E. Kurtz
+- Shimon Even
++ John McCarthy
++ Carl Sassenrath
+- Brian Kernighan
++ Makoto Nagao
++ John Tukey
++ Martin Fowler
+- François Vernadat
++ Jan Weglarz
+- Edward Fredkin
++ Daniel J. Bernstein
+- Allen Newell
+- Franco Preparata
++ Jack Dongarra
++ Nancy Lynch
+- Alan Kay
++ Vinod Dham
+- Jeffrey D. Ullman
++ John von Neumann
++ Gene Golub
++ Dan Klein
+- Wil van der Aalst
++ Paul Hudak
++ Gastón Gonnet
+- Cleve Moler
++ Sophie Wilson
++ Frances E. Allen
++ Michael Dertouzos
++ Wilhelm Schickard
++ Rapelang Rabana
+- Ole-Johan Dahl
++ Kenneth E. Iverson
++ Bert Sutherland
++ Butler W. Lampson
+- Maurice Vincent Wilkes
+- Andrew V. Goldberg
++ Joseph Weizenbaum
++ Dennis Ritchie
++ Andrew Appel
+- Ivar Jacobson
++ Scott Aaronson
++ Poul-Henning Kamp
++ David Pearson
+- Zhou Chaochen
++ Martin Odersky
+- David A. Bader
++ Charles Babbage
++ Ping Fu
++ Luis von Ahn
+- Tracy Camp
++ Paritosh Pandya
+- Robert L. Glass
+- Alston Householder
+- Steven M. Bellovin
+- Hal Abelson

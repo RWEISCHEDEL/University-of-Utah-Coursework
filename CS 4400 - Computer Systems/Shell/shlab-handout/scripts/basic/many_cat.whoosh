@@ -1,0 +1,5 @@
+# Run run many pipelines to make sure pipes are closed correctly
+
+repeat 1000 /bin/echo -n | /bin/cat
+
+# Expected output:

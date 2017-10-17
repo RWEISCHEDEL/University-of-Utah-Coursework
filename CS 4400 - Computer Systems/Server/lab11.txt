@@ -1,0 +1,54 @@
+Start with the server lab handout:
+
+ http://www.eng.utah.edu/~cs4400/servlab-handout.zip
+
+Part 1
+------
+
+Adjust the initial server to recognize "x" and "y" query arguments and
+report the sum of those numbers if "x" and "y" are both provided.
+
+For example, running the server at port 8090 and poining a browser to
+
+  http://localhost:8090/?x=40&y=2
+
+should show a page with the sum 42.
+
+
+Hints:
+
+ * Change `serve_form` to take a `dictionary_t *` argument for query
+   arguments.
+
+ * Use `atoi` (from the C library), `to_string` (from
+   "more_string.[ch]"), and `append_strings` (from
+   "more_string.[ch]").
+
+ * Be mindful of string allocation to avoid creating a memory leak.
+
+
+Part 2
+------
+
+If you add
+
+    Sleep(30)
+
+to the part of your server that adds "x" and "y" arguments, then
+requests that don't include an "x" or "y" argument should be fast, but
+a request with "x" and "y" arguemnts should take 30 seconds to
+respond. Worse, the slow requests will block all new (potentially
+fast) requests.
+
+
+Adjust your server so that it handles each connection concurrently.
+That way, while a request with "x" and "y" has to wait 30 seconds, a
+request without "x" or "y" can be handled immediately.
+
+Hints:
+
+ * Use `Pthread_create` and a function that is called in a new thread
+   and wraps `doit`.
+
+ * Since connections are independent, you won't need a semaphore.
+

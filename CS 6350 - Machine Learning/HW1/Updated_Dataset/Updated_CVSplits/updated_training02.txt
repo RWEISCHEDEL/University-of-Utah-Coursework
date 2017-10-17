@@ -1,0 +1,111 @@
++ Peter Ružička
+- Douglas T. Ross
++ Hector Garcia-Molina
++ Kees Koster
++ David Wheeler
++ David P. Anderson
+- Erik Demaine
+- Joseph F Traub
++ Andrew S. Tanenbaum
++ Lee Giles
+- Anita Borg
+- Christopher Strachey
++ Sue Black
++ Adriaan van Wijngaarden
++ Dines Bjørner
+- Alan Turing
+- John C. Reynolds
++ Ben Shneiderman
+- Patricia D. Lopez
+- Umesh Vazirani
+- Steven Spewak
++ Maciej Stachowiak
++ Rudolf Bayer
+- Ingemar Cox
+- Stephen Muggleton
+- John George Kemeny
+- Herbert W. Franke
++ Norbert Wiener
++ Bill Joy
++ Joseph Goguen
+- Ramanathan V. Guha
++ Rosemary Candlin
++ Rohini Kesavan Srihari
++ John Cocke
++ Simon Colton
+- Rózsa Péter
+- Bjarne Stroustrup
++ Robert Kowalski
++ Robert Floyd
+- Gloria Townsend
++ Winifred "Tim" Alice Asprey
+- Edwin Catmull
++ Bertrand Meyer
+- Frieder Nake
++ Guy L. Steele, Jr.
+- Andrew Herbert
++ Tom DeMarco
++ Yoav Freund
++ Gordon Plotkin
+- Avinash Kak
+- Vladimir Vapnik
+- Arif Zaman
+- Stephen Wolfram
+- James C. Beatty
++ Donald Norman
+- Andrey Nikolaevich Kolmogorov
+- Börje Langefors
++ Juan Pavón
++ Yukihiro Matsumoto
+- Monica S. Lam
++ Don Estridge
+- Gene Amdahl
+- Steve Omohundro
+- Admiral Grace Hopper
++ James Rumbaugh
++ Ralph Griswold
+- Scott Shenker
++ Bill Gropp
++ Stephen C. Johnson
++ Joseph Sifakis
+- Nadia Magnenat Thalmann
+- Edward Yourdon
+- Edward H. Shortliffe
++ James Cooley
++ Severo Ornstein
+- Alexander Dewdney
++ Seymour Ginsburg
++ Les Hatton
++ Danese Cooper
++ Mike Woodger
+- Dennis E. Wisnosky
+- James Z. Wang
++ Michael Garey
++ Larry Tesler
++ Fred B. Schneider
+- Annie J. Easley
+- Jeffrey Scott Vitter
+- Victor Bahl
++ Michael Butler
+- Michael I. Jordan
++ Moti Yung
++ Tim Finin
++ He Jifeng
+- Dragomir R. Radev
++ Bill Gates
++ David S. Johnson
++ Madhu Sudan
++ Raj Reddy
++ Marek Karpinski
+- Steven Rudich
++ Yorick Wilks
++ Susan Dumais
+- Alan Perlis
+- Sheila Greibach
++ Leslie Lamport
++ Ken Kennedy
+- Jean Bartik
++ John Mauchly
+- Oded Goldreich
++ Jiawei Han
++ Gordon Moore

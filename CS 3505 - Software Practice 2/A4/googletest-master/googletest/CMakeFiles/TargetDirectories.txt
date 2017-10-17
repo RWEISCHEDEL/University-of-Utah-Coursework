@@ -1,0 +1,2 @@
+/home/weisched/cs3505/A4/googletest-master/googletest/CMakeFiles/gtest.dir
+/home/weisched/cs3505/A4/googletest-master/googletest/CMakeFiles/gtest_main.dir

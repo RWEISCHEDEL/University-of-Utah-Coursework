@@ -1,0 +1,334 @@
+{
+   "allowSleep" : true,
+   "autoClearForces" : true,
+   "body" : [
+      {
+         "angle" : "B7E1BA2B",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F222234", "3F222234", "BF222234", "BF222234" ],
+                     "y" : [ "C0C44442", "40C44442", "40C44442", "C0C44442" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "42C4E8F0",
+         "massData-mass" : "40F89AD5",
+         "name" : "wood",
+         "position" : {
+            "x" : "3F8CCCD1",
+            "y" : "C195BF1F"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "BA73FB76",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "408EEEF0", "408EEEF0", "C08EEEF0", "C08EEEF0" ],
+                     "y" : [ "BF2AAAAB", "3F2AAAAB", "3F2AAAAB", "BF2AAAAB" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "4221F4B5",
+         "massData-mass" : "40BE93EB",
+         "name" : "wood",
+         "position" : {
+            "x" : "BE889D19",
+            "y" : "40C15799"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "BC226550",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3EEEEEDE", "3EEEEEDE", "BEEEEEDE", "BEEEEEDE" ],
+                     "y" : [ "C059999B", "4059999B", "4059999B", "C059999B" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "4147550A",
+         "massData-mass" : "404B17D8",
+         "name" : "wood",
+         "position" : {
+            "x" : "406468A7",
+            "y" : "3FF9F2B6"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "BC10B627",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F11111A", "3F11111A", "BF11111A", "BF11111A" ],
+                     "y" : [ "C0577773", "40577773", "40577773", "C0577773" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "416D2FB0",
+         "massData-mass" : "4074321A",
+         "name" : "wood",
+         "position" : {
+            "x" : "C06274BF",
+            "y" : "3FFF0661"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "BC27112F",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "40B33333", "40B33333", "C0B33333", "C0B33333" ],
+                     "y" : [ "BF2AAA9C", "3F2AAA9C", "3F2AAA9C", "BF2AAA9C" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "429E50B3",
+         "massData-mass" : "40EEEEDA",
+         "name" : "wood",
+         "position" : {
+            "x" : "3D9E277C",
+            "y" : "C005FDC0"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "3B1C95B1",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F22220B", "3F22220B", "BF22220B", "BF22220B" ],
+                     "y" : [ "C086666A", "4086666A", "4086666A", "C086666A" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "41FFF164",
+         "massData-mass" : "40AA3D5D",
+         "name" : "wood",
+         "position" : {
+            "x" : "40894E63",
+            "y" : "C0E0D5AA"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "3BC32479",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F199991", "3F199991", "BF199991", "BF199991" ],
+                     "y" : [ "C088888A", "4088888A", "4088888A", "C088888A" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "41FD7769",
+         "massData-mass" : "40A3D703",
+         "name" : "wood",
+         "position" : {
+            "x" : "C05FB689",
+            "y" : "C0E07848"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "3BDE16E8",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "40C33333", "40C33333", "C0C33333", "C0C33333" ],
+                     "y" : [ "BF111111", "3F111111", "3F111111", "BF111111" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "42ACFA0A",
+         "massData-mass" : "40DD3A06",
+         "name" : "wood",
+         "position" : {
+            "x" : "3F42AB9B",
+            "y" : "C13D59F6"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "398EC378",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F2AAA9A", "3F2AAA9A", "BF2AAA9A", "BF2AAA9A" ],
+                     "y" : [ "C0C77779", "40C77779", "40C77779", "C0C77779" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "42D9BEA4",
+         "massData-mass" : "4104FA44",
+         "name" : "wood",
+         "position" : {
+            "x" : "40BFFAB3",
+            "y" : "C194F208"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : "396E69AE",
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : "3F000000",
+               "friction" : 1,
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "3F2AAA97", "3F2AAA97", "BF2AAA97", "BF2AAA97" ],
+                     "y" : [ "C0C66663", "40C66663", "40C66663", "C0C66663" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "massData-I" : "42D64BC4",
+         "massData-mass" : "41044433",
+         "name" : "wood",
+         "position" : {
+            "x" : "C0778D8C",
+            "y" : "C1953672"
+         },
+         "type" : 2
+      },
+      {
+         "angle" : 0,
+         "angularVelocity" : 0,
+         "awake" : true,
+         "fixture" : [
+            {
+               "density" : 1,
+               "friction" : "3DCCCCCD",
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "41040000", "41040000", "C1040000", "C1040000" ],
+                     "y" : [ "C13D5555", "413D5555", "413D5555", "C13D5555" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "name" : "building",
+         "position" : {
+            "x" : "42042222",
+            "y" : "C1508889"
+         },
+         "type" : 0
+      },
+      {
+         "angle" : 0,
+         "angularVelocity" : 0,
+         "awake" : true,
+         "fixture" : [
+            {
+               "density" : 1,
+               "friction" : "3DCCCCCD",
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "41251111", "41251111", "C1251111", "C1251111" ],
+                     "y" : [ "C0E6EEEF", "40E6EEEF", "40E6EEEF", "C0E6EEEF" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "name" : "house",
+         "position" : {
+            "x" : "C1F7BBBC",
+            "y" : "C18D5555"
+         },
+         "type" : 0
+      },
+      {
+         "angle" : 0,
+         "angularVelocity" : 0,
+         "fixture" : [
+            {
+               "density" : 1,
+               "friction" : "3F333333",
+               "polygon" : {
+                  "vertices" : {
+                     "x" : [ "42251111", "42251111", "C2251111", "C2251111" ],
+                     "y" : [ "BFD55555", "3FD55555", "3FD55555", "BFD55555" ]
+                  }
+               }
+            }
+         ],
+         "linearVelocity" : 0,
+         "name" : "ground",
+         "position" : {
+            "x" : 0,
+            "y" : "C1D44444"
+         },
+         "type" : 0
+      }
+   ],
+   "continuousPhysics" : true,
+   "gravity" : {
+      "x" : 0,
+      "y" : "C2200000"
+   },
+   "subStepping" : false,
+   "warmStarting" : true
+}

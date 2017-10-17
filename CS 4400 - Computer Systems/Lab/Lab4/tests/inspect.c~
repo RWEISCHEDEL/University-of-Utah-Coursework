@@ -1,0 +1,263 @@
+// Robert Weischedel
+// u0887905
+// CS 4400 - Linking Lab
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/mman.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <errno.h>
+#include <elf.h>
+
+/* Given the in-memory ELF header pointer as `ehdr` and a section
+   header pointer as `shdr`, returns a pointer to the memory that
+   contains the in-memory content of the section */
+   //finds content of a section
+#define AT_SEC(ehdr, shdr) ((void *)(ehdr) + (shdr)->sh_offset)
+
+static void check_for_shared_object(Elf64_Ehdr *ehdr);
+static void beginPrinting(Elf64_Ehdr *ehdr);
+static void inspectSection(Elf64_Ehdr *ehdr, Elf64_Shdr *symTable, Elf64_Rela *relas, Elf64_Sym *syms, int relaCount, char *strs, unsigned long offset, int size);
+static int addDesiredBits (unsigned char byte, int start, int end);
+static int determineBit(unsigned int byte, int bit);
+static int findFunctionStop(Elf64_Ehdr *ehdr,unsigned int off);
+static void printValues(int relaCount, Elf64_Rela *relas, unsigned int off, Elf64_Sym *syms, char *strs, int func);
+static void fail(char *reason, int err_code);
+
+int main(int argc, char **argv) {
+  int fd;
+  size_t len;
+  void *p;
+  Elf64_Ehdr *ehdr;
+
+  if (argc != 2)
+    fail("expected one file on the command line", 0);
+
+  /* Open the shared-library file */
+  fd = open(argv[1], O_RDONLY);
+  if (fd == -1)
+    fail("could not open file", errno);
+
+  /* Find out how big the file is: */
+  len = lseek(fd, 0, SEEK_END);
+
+  /* Map the whole file into memory: */
+  p = mmap(NULL, len, PROT_READ, MAP_PRIVATE, fd, 0);
+  if (p == (void*)-1)
+    fail("mmap failed", errno);
+
+  /* Since the ELF file starts with an ELF header, the in-memory image
+     can be cast to a `Elf64_Ehdr *` to inspect it: */
+  ehdr = (Elf64_Ehdr *)p;
+
+  /* Check that we have the right kind of file: */
+  check_for_shared_object(ehdr);
+
+  /* Add a call to your work here */
+  beginPrinting(ehdr);
+  return 0;
+}
+
+// Checks the first bytes to make sure it's an ELF file
+static void check_for_shared_object(Elf64_Ehdr *ehdr) {
+  if ((ehdr->e_ident[EI_MAG0] != ELFMAG0)
+      || (ehdr->e_ident[EI_MAG1] != ELFMAG1)
+      || (ehdr->e_ident[EI_MAG2] != ELFMAG2)
+      || (ehdr->e_ident[EI_MAG3] != ELFMAG3))
+    fail("not an ELF file", 0);
+
+  if (ehdr->e_ident[EI_CLASS] != ELFCLASS64)
+    fail("not a 64-bit ELF file", 0);
+
+  if (ehdr->e_type != ET_DYN)
+    fail("not a shared-object file", 0);
+}
+
+
+static Elf64_Shdr *sectionByIndex(Elf64_Ehdr *ehdr, int idx) {
+  Elf64_Shdr *shdrs = ((void*)ehdr)+ehdr->e_shoff;
+  return &shdrs[idx];
+}
+
+
+static Elf64_Shdr *sectionByName(Elf64_Ehdr *ehdr, char *name) {
+  Elf64_Shdr *shdrs = ((void*)ehdr)+ehdr->e_shoff;
+  char *strs = (void*)ehdr+shdrs[ehdr->e_shstrndx].sh_offset;
+  int i = 0;
+  for (i = 0; i < ehdr->e_shnum; i++) {
+    if (strcmp((strs + shdrs[i].sh_name), name) == 0) {
+      Elf64_Shdr *shdrs = ((void*)ehdr)+ehdr->e_shoff;
+      return &shdrs[i];
+    }
+  }
+  return NULL;
+}
+
+static void beginPrinting(Elf64_Ehdr *ehdr) {
+  Elf64_Shdr *relaTable = sectionByName(ehdr, ".rela.dyn");
+  Elf64_Rela *relas = AT_SEC(ehdr, relaTable);
+  int relaCount = (relaTable->sh_size / sizeof(Elf64_Rela));
+
+  Elf64_Shdr *symTable = sectionByName(ehdr, ".dynsym");
+  Elf64_Sym *syms = AT_SEC(ehdr, symTable);
+  int symCount = (symTable->sh_size / sizeof(Elf64_Sym));
+
+  char *strs = AT_SEC(ehdr, sectionByName(ehdr, ".dynstr"));
+
+  int i;
+  for(i = 0; i < symCount; i++) {
+    if((ELF64_ST_TYPE(syms[i].st_info) == 2) && (syms[i].st_size != 0)) {
+      printf("%s\n",strs + syms[i].st_name);
+      Elf64_Shdr *sh = sectionByIndex(ehdr, syms[i].st_shndx);
+      unsigned long sh_offset = syms[i].st_value;
+      int size = sh->sh_size;
+      inspectSection(ehdr, symTable, relas, syms, relaCount, strs, sh_offset, size);
+    }
+  }
+}
+
+static void inspectSection(Elf64_Ehdr *ehdr, Elf64_Shdr *symTable, Elf64_Rela *relas, Elf64_Sym *syms, int relaCount, char *strs, unsigned long off, int size) {
+  unsigned char* assemble_addr = ((void*)ehdr) + off;
+  int i;
+  for (i = 0; i < size; i++) {
+    unsigned char byteCheck = *(assemble_addr + i);
+    switch (byteCheck) {
+    case 235 : {
+        unsigned int displacement = off + i + 2 + *((char *)(assemble_addr + i + 1));
+        inspectSection(ehdr, symTable, relas, syms, relaCount, strs, displacement, findFunctionStop(ehdr,displacement));
+        break;
+      }
+    case 233 : {
+        Elf64_Shdr *plt = sectionByName(ehdr, ".rela.plt");
+        Elf64_Rela *rela_plt;
+        int plt_count;
+        if (plt != NULL) {
+          rela_plt = AT_SEC(ehdr, plt);
+          plt_count = (plt->sh_size / sizeof(Elf64_Rela));
+        }
+        int dest = *((int *)(assemble_addr + i + 1));
+        unsigned int plt_offset = off + i + 11 + dest;
+        unsigned char *plt_loc = ((void *)(ehdr)) + off + i + 5 + dest;
+        unsigned int plt_reloc = *((unsigned int *)(plt_loc + 2)) + plt_offset;
+        if (plt != NULL){
+          printValues(plt_count, rela_plt, plt_reloc, syms, strs, 1);
+        }
+        i += 4;
+        break; }
+    case 195:{
+      return;
+    }
+    case 139 :
+    case 137 :
+    case 99 : {
+      unsigned char byte = *(assemble_addr + i + 1);
+      if (determineBit(byte, 6) == 1 && determineBit(byte, 7) == 1) {
+        i++;
+        break;
+      }
+      else if (determineBit(byte, 6) == 0 && determineBit(byte, 7) == 0 && addDesiredBits(byte, 0, 2) == 5) {
+        unsigned int offset = (unsigned int)6 + i + off + *((unsigned int *)(assemble_addr + i + 3));
+        printValues(relaCount, relas, offset, syms, strs, 0);
+        i += 5;
+      }
+      else if (determineBit(byte, 6) == 0 && determineBit(byte, 7) == 0 && addDesiredBits(byte, 0, 2) == 4) {
+        i += 2;
+        break;
+      }
+      else if ((determineBit(byte, 6) == 1 && determineBit(byte,7) == 1) || (addDesiredBits(byte, 0, 2) != 4 && addDesiredBits(byte, 0, 2) != 5)) {
+        i++;
+        break;
+      }
+    }
+    case 72 : {
+        unsigned char byte1 = *(assemble_addr + i + 1);
+        unsigned char byte2 = *(assemble_addr + i + 2);
+        if ((byte1 == 139 && determineBit(byte2,6) == 0 && determineBit(byte2,7) == 0 && addDesiredBits(byte2,0,2) == 5) || ((byte1 == 139 || byte1 == 99 || byte1 == 137) && determineBit(byte2,6) == 0 && determineBit(byte2,7) == 0 && addDesiredBits(byte2,0,2) == 5)) {
+            unsigned int offset = (unsigned int)7 + i + off + *((unsigned int *)(assemble_addr + i + 3));
+            printValues(relaCount, relas, offset, syms, strs, 0);
+            i += 6;
+            break;
+        }
+        else if ((byte1 == 139 || byte1 == 99 || byte1 == 137) && determineBit(byte2,6) == 1 && determineBit(byte2,7) == 1) {
+          i += 2;
+          break;
+        }
+        else if ((byte1 == 139 || byte1 == 99 || byte1 == 137) && determineBit(byte2,6) == 0 && determineBit(byte2,7) == 0 && addDesiredBits(byte2,0,2) == 4) {
+          i += 3;
+          break;
+        }
+        else if ((byte1 == 139 || byte1 == 99 || byte1 == 137) && ((determineBit(byte2,6) == 1 && determineBit(byte2,7) == 1) || (addDesiredBits(byte2,0,2) != 5 && addDesiredBits(byte2,0,2) != 4))) {
+          i += 2;
+          break;
+        }
+      }
+    default :{
+      return;
+    }
+
+    }
+  }
+}
+
+static int addDesiredBits (unsigned char byte, int start, int end) {
+  int total = 0;
+  int i;
+  for (i = 0; i <= end - start; i++) {
+    if(!(determineBit(byte, end - i) == 0)){
+      int sum = 1;
+      int val = (end - start) - i;
+      while(val > 0){
+        sum *= 2;
+        val--;
+      }
+      total += sum;
+    }
+  }
+  return total;
+}
+
+static int determineBit(unsigned int byte, int b) {
+  if((byte & (1 << b))){
+    return 1;
+  }
+  else{
+    return 0;
+  }
+}
+
+static int findFunctionStop(Elf64_Ehdr *ehdr, unsigned int off) {
+  Elf64_Shdr *symTab = sectionByName(ehdr, ".symtab");
+  Elf64_Sym *sym = AT_SEC(ehdr, symTab);
+  int size = (symTab->sh_size / sizeof(Elf64_Sym));
+  int i;
+  for (i = 0; i < size; i++) {
+    if (sym[i].st_value <= off && sym[i].st_value * 2 >= off) {
+      return (sym[i].st_value * 2) - off;
+    }
+  }
+  return 0;
+}
+
+static void printValues(int relaCount, Elf64_Rela *relas, unsigned int offset, Elf64_Sym *syms, char *strs, int funcCode) {
+  int i;
+  unsigned long relaOffset = -1;
+  for (i = 0; i < relaCount; i++) {
+    if (relas[i].r_offset == offset) {
+      relaOffset = ELF64_R_SYM(relas[i].r_info);
+      if (funcCode == 0 && relaOffset != -1 && ELF64_ST_BIND(syms[relaOffset].st_info) == STB_GLOBAL) printf("  %s\n",strs + syms[relaOffset].st_name);
+      else if (funcCode == 1 && relaOffset != -1) {
+        printf("  (%s)\n",strs + syms[relaOffset].st_name);
+      }
+      break;
+    }
+  }
+}
+
+static void fail(char *reason, int err_code) {
+  fprintf(stderr, "%s (%d)\n", reason, err_code);
+  exit(1);
+}

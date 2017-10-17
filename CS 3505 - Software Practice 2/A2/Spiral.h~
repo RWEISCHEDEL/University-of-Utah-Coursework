@@ -1,0 +1,44 @@
+/*******************
+ * Robert Weischedel
+ * CS 3505
+ * Assignmnet 2
+ * Spiral.h
+ *******************/
+
+#ifndef A2_SPIRAL_H
+#define A2_SPIRAL_H
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <iostream>
+
+
+class Spiral
+{
+
+private:
+int nextLetter;
+double x;
+double y;
+double startAngle;
+double radius;
+void updateNextLetter();
+
+
+public:
+Spiral(double centerX, double centerY, double beginAngle, double beginRadius);
+double get_text_x();
+double get_text_y();
+double get_spiral_angle();
+double get_text_angle();
+Spiral& operator++();
+Spiral operator++(int);
+friend std:: ostream& operator<<(std::ostream& output, Spiral s);
+
+
+
+};
+
+#endif

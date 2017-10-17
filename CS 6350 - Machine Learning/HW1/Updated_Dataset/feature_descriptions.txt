@@ -1,0 +1,11 @@
+Here are some features that may be useful for classifying the badges dataset:
+
+
+1. Is their first name longer than their last name?
+2. Do they have a middle name?
+3. Does their first name start and end with the same letter? (ie "Ada")
+4. Does their first name come alphabetically before their last name? (ie "Dan Klein" because "d" comes before "k")
+5. Is the second letter of their first name a vowel (a,e,i,o,u)?
+6. Is the number of letters in their last name even?
+
+* Hint: be careful with lowercase vs. uppercase when making comparisons between letters!

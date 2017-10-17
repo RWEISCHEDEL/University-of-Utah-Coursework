@@ -1,0 +1,83 @@
+/*******************
+ * Robert Weischedel
+ * CS 3505
+ * Assignmnet 2
+ * Spiral.cpp
+ *******************/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <iostream>
+#include "Spiral.h"
+
+int nextLetter;
+double x;
+double y;
+double center_x;
+double center_y;
+double startAngle;
+double radius;
+
+Spiral::Spiral(double centerX, double centerY, double beginAngle, double beginRadius){
+
+    nextLetter = 0;
+
+    center_x = centerX;
+
+    center_y = centerY;
+
+    startAngle = beginAngle;
+
+    radius = beginRadius;
+
+}
+
+Spiral& Spiral::operator++(){
+updateNextLetter();
+nextLetter++;
+}
+
+Spiral Spiral::operator++(int input){
+updateNextLetter();
+nextLetter++;
+}
+
+
+std::ostream& operator<<(std::ostream& output, Spiral s){
+output << "x: " << x << "y: " << y << "Spiral Angle: " << startAngle << "Letter Angle: " << textAngle << "Current Angle: " << currentAngle;
+}
+
+double Spiral::get_text_x(){
+return x;
+}
+
+double Spiral::get_text_y(){
+return y;
+}
+
+double Spiral::get_text_angle(){
+return textAngle;
+}
+
+double Spiral::get_spiral_angle(){
+return currentAngle;
+}
+
+void Spiral::updateNextLetter(){
+
+textAngle = (startAngle - 90.0) / 180 * M_PI;
+
+currentAngle = startAngle / 180.0 * M_PI;
+
+x = center_x + cos(currentAngle) * (radius);
+
+y = center_y + sin(currentAngle) * (radius);
+
+x += nextLetter * cos(currentAngle);
+
+y += nextLetter * cos(currentAngle);
+
+startAngle -= 10;
+}

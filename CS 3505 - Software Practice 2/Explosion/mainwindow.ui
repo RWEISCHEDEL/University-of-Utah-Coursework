@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1224</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>32</width>
+    <height>32</height>
+   </size>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="gameStackedWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QStackedWidget{
+border:solid;
+border-width:1px;
+border-color:#070101;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="currentIndex">
+       <number>14</number>
+      </property>
+      <widget class="GameMenuPage" name="gameMenuPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ArsenalPage" name="arsenalPage">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>150</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="RegisterPage" name="registerPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="HelpPage" name="helpPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="EducationPage" name="educationPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QWidget" name="scoresPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="AdminPage" name="adminPage"/>
+      <widget class="QWidget" name="gameMenu"/>
+      <widget class="LevelsPage" name="levelsPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="LosePage" name="losePage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="WinPage" name="winPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="ShopPage" name="shopPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="LoginPage" name="loginPage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="GamePage" name="gamePage">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="GameEditorWindow" name="gameEditorWindow"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1224</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPage">
+    <property name="title">
+     <string>Page</string>
+    </property>
+    <addaction name="actionGameMenu"/>
+    <addaction name="actionRegister"/>
+    <addaction name="actionHelp"/>
+    <addaction name="actionEducation"/>
+    <addaction name="actionLevels"/>
+    <addaction name="actionLose"/>
+    <addaction name="actionWin"/>
+    <addaction name="actionShop"/>
+    <addaction name="actionLogin"/>
+    <addaction name="actionGame"/>
+    <addaction name="actionArsenal"/>
+    <addaction name="actionGameEditor"/>
+    <addaction name="actionAdmin"/>
+   </widget>
+   <widget class="QMenu" name="menuGame_Options">
+    <property name="title">
+     <string>Game Options</string>
+    </property>
+    <addaction name="actionLoad_Game"/>
+    <addaction name="actionReset_Level"/>
+   </widget>
+   <widget class="QMenu" name="menuGame_Editor">
+    <property name="title">
+     <string>Game Editor</string>
+    </property>
+    <addaction name="actionSave_Level"/>
+   </widget>
+   <addaction name="menuPage"/>
+   <addaction name="menuGame_Options"/>
+   <addaction name="menuGame_Editor"/>
+  </widget>
+  <action name="actionGameMenu">
+   <property name="text">
+    <string>GameMenu</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+1</string>
+   </property>
+  </action>
+  <action name="actionRegister">
+   <property name="text">
+    <string>Register</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+2</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+3</string>
+   </property>
+  </action>
+  <action name="actionEducation">
+   <property name="text">
+    <string>Education</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+4</string>
+   </property>
+  </action>
+  <action name="actionScores">
+   <property name="text">
+    <string>Scores</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+5</string>
+   </property>
+  </action>
+  <action name="actionLevels">
+   <property name="text">
+    <string>Levels</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+6</string>
+   </property>
+  </action>
+  <action name="actionLose">
+   <property name="text">
+    <string>Lose</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+7</string>
+   </property>
+  </action>
+  <action name="actionWin">
+   <property name="text">
+    <string>Win</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+8</string>
+   </property>
+  </action>
+  <action name="actionShop">
+   <property name="text">
+    <string>Shop</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+9</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+L</string>
+   </property>
+  </action>
+  <action name="actionGame">
+   <property name="text">
+    <string>Game</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+0</string>
+   </property>
+  </action>
+  <action name="actionArsenal">
+   <property name="text">
+    <string>Arsenal</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+A</string>
+   </property>
+  </action>
+  <action name="actionGameEditor">
+   <property name="text">
+    <string>GameEditor</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+G</string>
+   </property>
+  </action>
+  <action name="actionLoad_Game">
+   <property name="text">
+    <string>Load Level</string>
+   </property>
+  </action>
+  <action name="actionReset_Level">
+   <property name="text">
+    <string>Reset Level</string>
+   </property>
+  </action>
+  <action name="actionSave_Level">
+   <property name="text">
+    <string>Save Level</string>
+   </property>
+  </action>
+  <action name="actionAdmin">
+   <property name="text">
+    <string>Admin</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+M</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LoginPage</class>
+   <extends>QWidget</extends>
+   <header location="global">loginpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>GamePage</class>
+   <extends>QWidget</extends>
+   <header location="global">gamepage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>GameMenuPage</class>
+   <extends>QWidget</extends>
+   <header location="global">gamemenupage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ShopPage</class>
+   <extends>QWidget</extends>
+   <header location="global">shoppage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HelpPage</class>
+   <extends>QWidget</extends>
+   <header location="global">helppage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RegisterPage</class>
+   <extends>QWidget</extends>
+   <header location="global">registerpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>EducationPage</class>
+   <extends>QWidget</extends>
+   <header location="global">educationpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LevelsPage</class>
+   <extends>QWidget</extends>
+   <header location="global">levelspage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LosePage</class>
+   <extends>QWidget</extends>
+   <header location="global">losepage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WinPage</class>
+   <extends>QWidget</extends>
+   <header location="global">winpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ArsenalPage</class>
+   <extends>QWidget</extends>
+   <header location="global">arsenalpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>GameEditorWindow</class>
+   <extends>QWidget</extends>
+   <header>gameeditorwindow.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AdminPage</class>
+   <extends>QWidget</extends>
+   <header location="global">adminpage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

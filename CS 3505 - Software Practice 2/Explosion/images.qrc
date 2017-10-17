@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/box.png</file>
+        <file>Images/ground.png</file>
+        <file>Images/dynamite.png</file>
+        <file>Images/bomb.png</file>
+        <file>Images/dynamiteCost.png</file>
+        <file>Images/bombCost.png</file>
+        <file>Images/pow</file>
+        <file>Images/tnt.png</file>
+        <file>Images/semtex.png</file>
+        <file>Images/c4.png</file>
+        <file>Images/c4Cost.png</file>
+        <file>Images/semtexCost.png</file>
+        <file>Images/thermiteCutterCost.png</file>
+        <file>Images/thermiteCutter.png</file>
+        <file>Images/thumbs_up.jpg</file>
+        <file>Images/demoEngineer.JPG</file>
+        <file>Images/buildingImp.JPG</file>
+        <file>Images/fail.jpeg</file>
+        <file>Images/bomb2.png</file>
+        <file>Images/SCSprite.png</file>
+        <file>Images/SCIcon.png</file>
+        <file>Images/explosion_logo.png</file>
+        <file>Images/lev5.png</file>
+        <file>Images/lev4.png</file>
+        <file>Images/lev3.png</file>
+        <file>Images/lev2.png</file>
+        <file>Images/lev1.png</file>
+        <file>Images/explosion_logo_small.png</file>
+    </qresource>
+</RCC>

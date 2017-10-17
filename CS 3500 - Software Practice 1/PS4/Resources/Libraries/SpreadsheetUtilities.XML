@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpreadsheetUtilities</name>
+    </assembly>
+    <members>
+        <member name="T:SpreadsheetUtilities.DependencyGraph">
+             <summary>
+             (s1,t1) is an ordered pair of strings
+             s1 depends on t1 --> t1 must be evaluated before s1
+             
+             A DependencyGraph can be modeled as a set of ordered pairs of strings.  Two ordered pairs
+             (s1,t1) and (s2,t2) are considered equal if and only if s1 equals s2 and t1 equals t2.
+             (Recall that sets never contain duplicates.  If an attempt is made to add an element to a 
+             set, and the element is already in the set, the set remains unchanged.)
+             
+             Given a DependencyGraph DG:
+             
+                (1) If s is a string, the set of all strings t such that (s,t) is in DG is called dependents(s).
+                    
+                (2) If s is a string, the set of all strings t such that (t,s) is in DG is called dependees(s).
+            
+             For example, suppose DG = {("a", "b"), ("a", "c"), ("b", "d"), ("d", "d")}
+                 dependents("a") = {"b", "c"}
+                 dependents("b") = {"d"}
+                 dependents("c") = {}
+                 dependents("d") = {"d"}
+                 dependees("a") = {}
+                 dependees("b") = {"a"}
+                 dependees("c") = {"a"}
+                 dependees("d") = {"b", "d"}
+              Robert Weischedel CS 3500 9/17/15
+             </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.#ctor">
+            <summary>
+            This serves as the constructor for this library, it creates an empty DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Size">
+            <summary>
+            Returns number of ordered pairs in the DependencyGraph.
+            </summary>
+            <returns>A integer value indicating how many order pairs exist in the DependencyGraph</returns>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Item(System.String)">
+            <summary>
+            The size of dependees(s).
+            This property is an example of an indexer.  If dg is a DependencyGraph, you would
+            invoke it like this:
+            dg["a"]
+            It should return the size of dependees("a")
+            </summary>
+            <param name="s">The name of the string you wish to know home many dependent key values there are.</param>
+            <return>A integer value indicating how many dependent values currently exist.</return>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependents(System.String)">
+            <summary>
+            Reports whether a given inputs dependents(s) is non-empty.
+            </summary>
+            <param name="s">The name of the string you wish to see if it has any dependents associated with it.</param>
+            <returns>A boolean value indicating wether or not the input string has dependents associated with it.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependees(System.String)">
+            <summary>
+            Reports whether dependees(s) is non-empty.
+            </summary>
+            <param name="s">The name of the string you wish to see if it has any dependees associated with it</param>
+            <returns>A boolean value indicating wether or not the input string has dependees associated with it.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependents(System.String)">
+            <summary>
+            Given a string s it returns all the depenents assocaited with it. Or if it has none or it doesn't exist, it returns an empty list.
+            </summary>
+            <param name="s">A string that you wish to get all the dependent values of.</param>
+            <returns>A IEnumerable obj that contains all the dependents of string s.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependees(System.String)">
+            <summary>
+            Given a string s it returns all the dependees assocaited with it. Or if it has none or it doesn't exist, it returns an empty list.
+            </summary>
+            <param name="s">A string that you wish to get all the dependees values of.</param>
+            <returns>A IEnumerable obj that contains all the dependees of string s.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddDependency(System.String,System.String)">
+             <summary>
+             <para>Adds the ordered pair (s,t), if it doesn't exist</para>
+             
+             <para>This should be thought of as:</para>   
+             
+               s depends on t
+            
+             </summary>
+             <param name="s">A string value you wish to add. s cannot be evaluated until t is</param>
+             <param name="t">A string value you wish to add. t must be evaluated first.  S depends on T</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDependency(System.String,System.String)">
+            <summary>
+            Removes the ordered pair (s,t), if it exists
+            </summary>
+            <param name="s">A string value you wish to remove. </param>
+            <param name="t">A string value you wish to remove. </param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependents(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (s,r).  Then, for each
+            t in newDependents, adds the ordered pair (s,t).
+            </summary>
+            <param name="s">The name of the string value you wish to replace the dependent values of.</param>
+            <param name="newDependents">The IEnumerable obj containing the new string dependent values for the input string.</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependees(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (r,s).  Then, for each 
+            t in newDependees, adds the ordered pair (t,s).
+            </summary>
+            <param name="s">The name of the string value you wish to replace the dependee values of.</param>
+            <param name="newDependees">The IEnumerable obj containing the new string dependee values for the input string.</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.stringValidator(System.String,System.String)">
+            <summary>
+            This serves as a helper method for the class to ensure that all input strings are not empty or null.
+            </summary>
+            <param name="s">The first string value to validate if its empty or null.</param>
+            <param name="t">The second string value to validate if its empty or null.</param>
+            <returns>A boolean value that indicates if either or both of the strings are empty or null.</returns>
+        </member>
+    </members>
+</doc>

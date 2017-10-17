@@ -1,0 +1,111 @@
++ T. V. Raman
++ Lawrence Paulson
++ Roberto Tamassia
++ David Blei
++ Carol Spradling
+- Robert S. Boyer
+- Zvi Galil
++ Paul Mockapetris
+- Alan Mycroft
+- Peter T. Kirstein
+- John Backus
++ Ken Thompson
++ Barbara Liskov
++ Paul Vitanyi
++ Jack E. Bresenham
++ Bert Bos
++ Kathleen Booth
++ Cecilia R. Aragon
++ Carl Hewitt
+- Michael L. Scott
++ Yale Patt
++ Carl Kesselman
+- Manindra Agrawal
++ Michael Kölling
+- Avie Tevanian
+- Beatrice Helen Worsley
++ Jon Crowcroft
+- Leonard Adleman
++ Lenore Blum
++ Donald Knuth
++ Juris Hartmanis
++ Aaron Sloman
++ David Parnas
+- Michael O. Rabin
++ John Ousterhout
+- Shang-Hua Teng
++ Watts Humphrey
++ Vinton Cerf
+- John L. Hennessy
++ Mahadev Satyanarayanan
+- J.C.R. Licklider
+- Martin Charles Golumbic
++ John Krogstie
++ Jennifer Widom
++ Martin Campbell-Kelly
+- Igor Hawryszkiewycz
++ Neil Wiseman
++ Lance Fortnow
++ Sargur Srihari
+- Charles Stark Draper
++ Jack Minker
++ Colette Rolland
++ Robert Sproull
+- Kristen Nygaard
+- Emil Post
++ Leonard Kleinrock
++ Daniel Thalmann
+- Peter G. Gyarmati
++ David Wagner
++ John Lions
++ Ravi Sethi
+- Srinidhi Varadarajan
++ Jeff Bonwick
+- Gregory Chaitin
++ Kurt Gödel
+- Andrew Barto
++ Tobias Nipkow
++ Geoffrey Hinton
++ Hans Moravec
+- Adam Dunkels
++ Randy Pausch
++ Kevin Warwick
+- Brian Randell
++ Alfred Aho
++ David C. Evans
++ Dana Scott
+- Adele Goldberg
++ Wendy Hall
++ David Gelernter
+- Serge Abiteboul
++ Richard Veryard
++ E. Allen Emerson
++ Peter Norvig
+- Peter J. Landin
++ James Gosling
+- Philip Emeagwali
++ Neeraj Kayal
++ Max Newman
++ Joel Moses
+- Olaf Storaasli
++ Peter Nordin
+- Stephen R. Bourne
+- Manuela M. Veloso
+- Christos Papadimitriou
+- Walter F. Tichy
++ John O'Sullivan
++ Joseph Kruskal
++ Niklaus Wirth
++ Edwin E. Tozer
++ Jonathan Bowen
+- Bruce Schneier
+- Lawrence J. Fogel
++ Juan E. Gilbert
++ Barry Boehm
+- Charles Geschke
++ Michael Stonebraker
++ Robert Tarjan
++ John Yen
+- Andrew Booth
++ Sergey Brin
+- Trygve Reenskaug

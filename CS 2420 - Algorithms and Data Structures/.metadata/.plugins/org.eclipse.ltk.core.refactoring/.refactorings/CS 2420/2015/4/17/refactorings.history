@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ASCIIVALS&apos; to &apos;CS 2420&apos;&#x0D;&#x0A;- Original project: &apos;CS 2420&apos;&#x0D;&#x0A;- Destination element: &apos;CS 2420&apos;&#x0D;&#x0A;- Original element: &apos;ASCIIVALS&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=CS 2420" element1="src/assignment12/ASCIIVALS" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1429652267522" units="0" version="1.0"/>
+</session>

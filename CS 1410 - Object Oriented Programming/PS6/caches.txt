@@ -1,0 +1,500 @@
+GCRQWK	Old Three Tooth	geocadet	3.5	3	N40 45.850	W111 48.045
+GC2E5QX	Red Butte Garden's Secret	edquest	1.5	1.5	N40 46.133	W111 49.404
+GC28EA	Below Red Butte	Kim Best	3	3.5	N40 45.802	W111 49.025
+GC2ETN9	Danger Garden	edquest	1.5	1	N40 45.993	W111 49.411
+GC3AFAV	Dover Rover	himilecyclist	2.5	2.5	N40 46.028	W111 49.523
+GC39837	Utah Challenge Cache	JAC0B	1.5	1.5	N40 46.235	W111 50.256
+GC1QTHX	We Remember..... D.W.H.	Mooseman70	2.5	3	N40 43.656	W111 45.938
+GC39838	Kid's Challenge Cache	JAC0B	1.5	1.5	N40 46.271	W111 50.397
+GC39836	Healthy Geocacher's Challenge Cache	JAC0B	1.5	1.5	N40 46.103	W111 50.183
+GCPR5D	Bar Coded	Fire Elemental	4.5	2	N40 46.200	W111 50.460
+GC10PXP	A Twin Tribute	TechieBill	4	1.5	N40 45.933	W111 50.150
+GC38K55	Sunday Moring Hiking Series #31-BST Emigration Cyn	HikingSeal	1	3	N40 45.053	W111 48.680
+GCJYZ5	Unwelcome Visitor	TheStarrs/Chili_Tepin (Adopted by himilecyclist)	3	1.5	N40 45.657	W111 49.783
+GCPR5K	Electrical Engineer's Circuit Board	Fire Elemental	4.5	1	N40 45.900	W111 50.400
+GC7BA1	This Is The Place	crimson_crew	1	1	N40 45.136	W111 49.195
+GC1579Q	POW/MIA Tribute	JimmerBean	1.5	1	N40 45.746	W111 50.252
+GC1H8YF	Wanna Play B-Ball?	ttowttow	1.5	1.5	N40 45.412	W111 49.755
+GC39839	Picture This! 054	JAC0B	1.5	1.5	N40 46.111	W111 50.999
+GCV5J5	The GPS Classroom - Office Hours	ruaniteit and crimson_crew	2	1	N40 45.747	W111 50.456
+GC2WZ9P	2011 Independence--GO COUGARS	222utah	2.5	2.5	N40 45.188	W111 49.544
+GC25GBC	Zombieland	Ho'okele	2	1	N40 45.950	W111 50.871
+GC23JK6	Can U find IT?	Tnotn	1.5	1.5	N40 45.259	W111 49.706
+GC28GQT	GSLC, Treasures of Scouting: Volunteer Quest	GSLCCacher	2	1.5	N40 45.494	W111 50.196
+GC2BV0M	Between RCI and U	diamond18	1.5	1.5	N40 45.328	W111 49.948
+GC1G2TM	A Nice Clump of Trees	ttowttow	1.5	2	N40 45.237	W111 49.896
+GC169Q6	Eastbound Portal  (aka the wormhole)	Dirtisgood (adopted by girl_friday)	1.5	2	N40 43.235	W111 46.581
+GC2RZTZ	Gum's Island Rock	JamesMontgomery	1.5	1	N40 44.461	W111 48.728
+GC2JEYD	Sunnyfoot	feistydonut and ashtondem	1.5	1.5	N40 45.105	W111 49.821
+GC2F8WT	Dinosaur Train Brachiosaurus Cache - KUED	KUED7	1	1	N40 45.853	W111 51.091
+GC285DY	Cornered	Zentropy	1.5	1.5	N40 45.272	W111 50.124
+GC2MPA7	King of the Hill	Waveling	1.5	2	N40 45.537	W111 50.637
+GC2HPJP	Horse Pistol	snownomi	1.5	1	N40 46.101	W111 51.589
+GC2X9M4	The Ten Commandments	MP13Scouts	2	3	N40 43.960	W111 48.020
+GC1M249	The MUSS	JimmerBean	1	1	N40 45.628	W111 50.869
+GC2Y3RQ	CMSgt S.H.C.	Pip-Boy3000	2	4.5	N40 42.269	W111 45.165
+GC1HX9E	Sinclair Sinclair One In One Out Geocoin Cache	JimmerBean	1.5	1	N40 46.160	W111 51.935
+GCGPQE	2002 Winter Olympics	Damenace	1	1	N40 45.523	W111 50.930
+GC1C6N4	County Seats of Utah	AD0OR	3	3	N40 45.103	W111 50.241
+GC2AAQR	Oh Danny boy oh Danny boy we love you Roe	JAC0B	1.5	1.5	N40 44.980	W111 50.184
+GC2GX9D	Speed Demon	BunSmoke	1.5	1	N40 45.900	W111 51.861
+GCJWGT	The 13th Corner	jbtslc	2	1	N40 45.491	W111 51.212
+GC24YGW	Our Solar System - Mars	lyonden_ut	1	1.5	N40 45.649	W111 51.586
+GC2TWD8	Tribute to the Andes from the Rockies	nyc-slc	3	3	N40 43.740	W111 48.382
+GC2RCZ5	Avenues Courtyard	ITSABUN!	1	1	N40 46.047	W111 52.316
+GC1W3RG	Camp Tracy	treponema	1.5	2	N40 41.679	W111 44.996
+GC1CRBP	The Terrain 5 Mini Challenge	AD0OR	5	5	N40 44.142	W111 49.242
+GC1JKAN	Business Cache 100	Marcupio	2	1.5	N40 46.044	W111 52.539
+GC2Q788	The Bridge Troll's Lair	Waveling	2	2.5	N40 44.905	W111 50.624
+GC17P2J	Reliable Cleaners circa 1940's	Fearless0	1.5	2	N40 45.510	W111 51.752
+GC34VWC	Girly moments	elvis_weasel	1	1	N40 44.826	W111 50.695
+GC1NA8E	High School Musical!	AD0OR	2.5	1.5	N40 45.131	W111 51.260
+GCHRN1	Our Heros, Never Forget!	b&b enterprises	1	1	N40 45.880	W111 52.594
+GC34AB	Lone F. Cedar Tree	Friends of Lorie Darlin'	1	1	N40 45.742	W111 52.435
+GC2HWG5	Blind Melon	snownomi	1.5	1.5	N40 45.676	W111 52.379
+GC2CVTW	The Other Place	Panatha13	1.5	1.5	N40 45.799	W111 52.660
+GC2FNAT	Just hanging around, eating some grub	microlover	2	1.5	N40 45.609	W111 52.566
+GCZ165	A Little Bit of Broadway in SLC	The Potter and Suzer	1.5	1	N40 45.775	W111 52.913
+GC18YDA	SLC Degrees of Confluence #03 2S2E	treponema	1.5	1.5	N40 45.872	W111 53.136
+GC18YDE	SLC Degrees of Confluence #07 6S6E	treponema	2	1.5	N40 45.431	W111 52.451
+GC18YDD	SLC Degrees of Confluence #06 5S5E	treponema	1.5	1.5	N40 45.517	W111 52.597
+GC18YDC	SLC Degrees of Confluence #05 4S4E	treponema	3	1.5	N40 45.621	W111 52.788
+GC18YDB	SLC Degrees of Confluence #04 3S3E	treponema	3	1.5	N40 45.773	W111 53.054
+GC21KXP	Gas-N-Go #2 (cvfh)	jamesgangut	2	1.5	N40 43.182	W111 48.668
+GC2NVZD	The Ruins	Waveling	2	3	N40 44.699	W111 51.262
+GC18YDJ	SLC Degrees of Confluence #10 9S9E	treponema	2.5	1.5	N40 44.995	W111 51.904
+GC18YDK	SLC Degrees of Confluence #11 10S10E	treponema	2	1.5	N40 44.835	W111 51.750
+GC27PY7	Sugar House Rocks!	Zentropy	3	1	N40 43.725	W111 49.876
+GC2E2AT	in memory of Linda	roy1974	1.5	1.5	N40 41.519	W111 46.130
+GC17CVP	No Triskaidekaphobia here!  :]	TyOcci :]  (Tyler19 and GusGus)	2.5	1.5	N40 44.496	W111 51.225
+GC3C9ND	Stay Inside the Lines	gotwings	2.5	3	N40 41.486	W111 46.148
+GC18YDP	SLC Degrees of Confluence #14 15S15E	treponema	2	1.5	N40 44.229	W111 50.885
+GC560D	A Square Deal	Number 6	1	1	N40 45.626	W111 53.273
+GC3C8GF	PIPEarazzi	gotwings	1.5	3	N40 41.651	W111 46.554
+GC2E7GE	This is A-o-K	timlawlor	1.5	1	N40 44.059	W111 50.664
+GCC5D	Mike's Memorial	Tony	2.5	2	N40 42.685	W111 48.343
+GCM6GK	James (cache) Penney	Rubicon2002	1.5	1	N40 45.730	W111 53.518
+GC1EB43	SUP?	AD0OR	1.5	1.5	N40 42.487	W111 48.062
+GC33E1C	States of the Union Challenge	hyperheidi	4.5	1.5	N40 44.603	W111 51.657
+GCQPKY	Uncle Rico's Cache	Jeepchick21	1	1	N40 45.137	W111 52.579
+GC18YDX	SLC Degrees of Confluence #20 21S21E	treponema	2.5	1.5	N40 43.521	W111 49.841
+GC2P4VN	Waymarking Salt Lake City Challenge	JAC0B	1.5	1.5	N40 45.512	W111 53.239
+GC18YDW	SLC Degrees of Confluence #19 20S20E	treponema	2	1.5	N40 43.608	W111 50.013
+GC30Q05	Watering Hole #2	thegimp	1.5	1.5	N40 45.714	W111 53.647
+GC19ZTC	Artesian Systems	AD0OR	1.5	1	N40 45.103	W111 52.621
+GCG455	Well, Well, Well...	HitchHiker and punchbuggy	1	1	N40 45.105	W111 52.623
+GC3119D	cool place	frogdude1222	2	1.5	N40 44.069	W111 50.888
+GC1T8FR	Everyday is Earth Day: The Cache	girl_friday	3	1.5	N40 44.935	W111 52.435
+GC2KJQ4	Toe KNEE Knows A Tribute to Hiking Seal	GOATTER & HyperHeidi	3.5	1.5	N40 44.526	W111 51.751
+GCGY7P	Mary, Mary	The cast iron boss	1	1	N40 45.254	W111 52.982
+GC39834	Restrictive Challenge Cache	JAC0B	5	5	N40 42.033	W111 47.650
+GC2D54X	Clumsy	JAC0B	2.5	2.5	N40 43.903	W111 50.903
+GC2ZAR6	Mount Olympus	picklefreak	2	1.5	N40 41.867	W111 47.540
+GC1ZY7V	Out On The Streets	Toja7's Son	1.5	1.5	N40 44.418	W111 51.929
+GCMZEZ	Minuscule the 13th	Nano Twin II	1	1	N40 44.693	W111 52.431
+GC30GDM	a bidnis woman doin' bidnis downtown	DrJay	2	1.5	N40 45.209	W111 53.335
+GC23G4E	Ginger or Mary Ann?	Lyingden_ut	2	1.5	N40 44.621	W111 52.353
+GCGH53	Downtown Bondo Capital	sportstats	1	1	N40 45.256	W111 53.527
+GC18YE1	SLC Degrees of Confluence #24 33S33E	treponema	1.5	1.5	N40 42.001	W111 48.027
+GC23KAT	The Kennedy Ditch	AD0OR	2	1.5	N40 44.052	W111 51.571
+GC2HJG1	Germs	JAC0B	2	1.5	N40 45.000	W111 53.244
+GC2BMQK	The Freshmen	JAC0B	1.5	1.5	N40 43.206	W111 50.213
+GC2FY1N	A Girl Named Lu	snownomi	2	1	N40 43.577	W111 50.847
+GC2NAQV	Dinosaur Train Microraptor	Tracy Aviary	2.5	1.5	N40 44.550	W111 52.517
+GC23KAQ	Cupcakes!	AD0OR	2	1.5	N40 43.941	W111 51.567
+GC29MQ7	1000 Memories	Princess Daisies & Pip-Boy3000	3	1.5	N40 45.126	W111 53.663
+GC2GCJ4	Buttons	JAC0B	1.5	1.5	N40 43.590	W111 51.094
+GC2P4WY	Groundspeak Challenge - 100/100/100	JAC0B	1.5	1.5	N40 44.472	W111 52.598
+GC2VYQ3	Welcome to the home of Quinten, the red moose	hyperheidi	1.5	1.5	N40 44.016	W111 51.907
+GC3A3HV	Johnny's Cache	ITSABUN!	1	1.5	N40 42.897	W111 50.038
+GC11XDD	Classic Cars	GR8GPN	1.5	2	N40 45.255	W111 54.136
+GC27FKZ	Swimming up stream	fanugler	2.5	1.5	N40 43.524	W111 51.248
+GCNP5Q	Inside the Can...nery	Phlox	1	1	N40 44.495	W111 52.916
+GC2HJFG	Dirty Laundry	JAC0B	3	2	N40 45.032	W111 53.824
+GCXK7M	Rodney Mufflerbottom?	GR8GPN	1.5	1.5	N40 45.106	W111 53.961
+GC38KM8	I Googled Earth!	Lockjaw	3	2.5	N40 43.656	W111 51.538
+GC2PKTW	Well Rounded Salt Lake County	JAC0B	1.5	1.5	N40 44.711	W111 53.329
+GC1NJ25	Mill Creek Lumber Mills	Fire Elemental	2.5	3.5	N40 41.419	W111 47.776
+GC2GCJ7	Benchmark: AA3690  PIERCE 	JAC0B	4	2	N40 43.333	W111 51.111
+GC2A0YA	Hidden Hollow	Xumd	1.5	1.5	N40 43.443	W111 51.309
+GC1D152	It's Clear	AD0OR	1.5	1.5	N40 43.824	W111 51.969
+GC2D9K9	Picture This! 016	JAC0B	4	2	N40 45.000	W111 54.000
+GC174KD	Shake Your Money Maker	Johnny4x4	1.5	1.5	N40 44.915	W111 53.940
+GC2PQX1	Latter Day Cache #19	rerb	2	1.5	N40 42.191	W111 49.319
+GC1T55B	Jordan & Salt Lake City Canal	AD0OR	2	1.5	N40 43.508	W111 51.622
+GC2RH1B	UTYEA!	The Stormin Mormons	2	1.5	N40 41.247	W111 47.774
+GC19H28	Jefferson Park	AD0OR	2	2	N40 44.698	W111 53.661
+GC26J9Z	Dinner, a Movie, and a Quick Cache! #8	pfeifferhorn	2.5	1.5	N40 43.358	W111 51.454
+GC1C54B	Creekside Retreat	Fearless0	2	1.5	N40 43.611	W111 51.947
+GC2EYP6	Early East Millcreek Schools	JAC0B	2	1.5	N40 41.811	W111 48.905
+GC28FVV	First Encampment	balkamper13	2.5	2.5	N40 43.996	W111 52.622
+GC3AAK8	Tea Anyone? - (#10 Peppermint)	hyperheidi	1	1	N40 43.566	W111 51.936
+GC3BF50	Tea Anyone? - (#11 Leap day 2012 - Kambaa)	hyperheidi	1	1	N40 43.566	W111 51.936
+GC26NGE	Caching in the Park	pfeifferhorn	2.5	1.5	N40 43.334	W111 51.688
+GC2219V	Grandpa's Cache #7 (ts13)	jamesgangut	1.5	1.5	N40 44.530	W111 53.730
+GC1RD0G	Game Night - End at the Beginning	Hiking Seal, MzBluBrd, & MrBluJ	2	1.5	N40 43.451	W111 51.931
+GC2RH1R	Just hangin out	The Stormin Mormons	1.5	2	N40 40.658	W111 47.196
+GC36NWD	more rail history trolley	Dumbledore's Army 2006	2.5	1.5	N40 43.150	W111 51.438
+GC16Q6B	Flat as a Pancake	Fearless0	1	1.5	N40 43.454	W111 52.110
+GC23JF4	OWL #21 (ra33)	jamesgangut	1.5	1.5	N40 41.930	W111 49.568
+GC2R812	Just plain EVIL!	The Stormin Mormons	4.5	1.5	N40 40.316	W111 46.899
+GC20WPD	Lunch Break #1 (L13)	jamesgangut	1.5	1.5	N40 44.439	W111 53.970
+GC1K1G2	Thats what she said	AD0OR	2.5	2	N40 44.024	W111 53.333
+GC1B3FA	Low running wall	heberkid	1.5	1	N40 44.112	W111 53.477
+GC280PH	Schotzey	jamesgangut	1.5	1.5	N40 44.334	W111 53.932
+GC139BY	People's Freeway Park	AD0OR	1.5	1.5	N40 44.116	W111 53.654
+GC286BF	122 Potted Ave, TB Hotel	Team Kweejner	1	1.5	N40 43.837	W111 53.242
+GC1MFGJ	blvd gardens	dumbledores army 2006	1.5	1.5	N40 43.889	W111 53.501
+GC23EY4	OWL #19 (cw21)	jamesgangut	1.5	1.5	N40 43.517	W111 52.902
+GC17AB8	Jazzman	geo_gals	1.5	1.5	N40 44.324	W111 54.318
+GC2EFQZ	Snownomi's Suds	snownomi	1.5	1.5	N40 42.435	W111 51.168
+GC1D075	Utah's Trackable Icon Challenge	AD0OR	5	5	N40 44.734	W111 55.092
+GC2KJJY	Challenge of the Century: Tribute Caches	daphm	3	1.5	N40 43.894	W111 53.674
+GC1D4ZY	Bark, Bark!	raging river	2	1.5	N40 44.200	W111 54.200
+GC39DNQ	Turn Up The Radio	Buffalobros	1	1.5	N40 42.779	W111 51.931
+GC2BR9H	Busy Bee	snownomi	1.5	1.5	N40 43.501	W111 53.241
+GC1JR62	east of the tracks	Dumbledore's Army 2006	1.5	1.5	N40 44.132	W111 54.334
+GCC40	Zeus's Roost	Cach-U-Nuts	4.5	4.5	N40 39.394	W111 46.308
+GCXX19	Hendy	GR8GPN	2	1.5	N40 43.819	W111 53.893
+GC2DXF2	Toxic	JAC0B	1.5	1.5	N40 41.217	W111 49.503
+GC1FN0E	The Empty Side Of The Lot	ttowttow	1.5	1.5	N40 43.959	W111 54.190
+GC1JK48	Game Night #1	Hiking Seal	1	1.5	N40 43.607	W111 53.647
+GC20Y8C	Grandpa's Cache #2 (sts)	jamesgangut	1.5	1.5	N40 43.352	W111 53.283
+GC1H1XV	Reagans Feet II	26point2	3.5	1.5	N40 43.817	W111 54.222
+GC1EAEJ	D. O. A. - Salt Lake County	AD0OR	1.5	1.5	N40 44.515	W111 55.514
+GC174Q7	Zombie	geo_gals	1.5	1	N40 43.722	W111 54.202
+GC1CZ0N	Save Some Funk for Sunday	Marshy_Utah	3	1.5	N40 43.428	W111 53.797
+GC1D14Y	Rain Falls Down	AD0OR	3.5	3	N40 43.565	W111 54.029
+GC2HCA8	Challenge of the Century: Home Sweet Home	Chasing Blue Sky	4.5	2.5	N40 43.636	W111 54.146
+GCZMZM	Vincents Jetski	caverspencer	2	3	N40 44.444	W111 55.555
+GC1X170	Willard	tweet	1.5	1.5	N40 43.716	W111 54.340
+GC22T62	OWL #18 (727)	jamesgangut	1.5	1.5	N40 42.740	W111 52.731
+GC38JV4	Muggles (and Gnomes): Be Gone!	greenworldfeather	1.5	1	N40 43.218	W111 53.561
+GC25YJ9	Mission Improbable 2 - Cachaversary	The Secretary	1.5	1.5	N40 44.065	W111 55.019
+GC1C74C	Family Secrets	QueenZelda	1	1.5	N40 43.010	W111 53.257
+GC215Q3	Lunch Break #7 (717)	jamesgangut	1.5	1.5	N40 44.046	W111 55.028
+GC115D1	Picture this...	Fexy01 & Fexx06	1.5	1.5	N40 43.512	W111 54.253
+GC18RV1	Halloween Knights ( MacGyver Cache # 89 )	AD0OR	1.5	1.5	N40 44.336	W111 55.653
+GC2D4BF	Was it a rat I saw?	JAC0B	2	1.5	N40 40.524	W111 49.210
+GC3A48G	Happy New Year 2012	glidermike	1.5	1	N40 44.135	W111 55.353
+GC1A7Z7	Will He Find It #1	tjc852	1	1	N40 43.250	W111 53.858
+GC25A2G	Our Solar System - The Asteroid Belt	lyonden_ut	1.5	1.5	N40 43.933	W111 55.021
+GC2MZJA	Myocache	Waveling	1.5	1.5	N40 43.316	W111 54.070
+GC20WAH	OWL #4 (733)	jamesgangut	1.5	1.5	N40 42.004	W111 51.888
+GCNAJB	Splish Splash	GetYourBassOut	1	1	N40 42.966	W111 53.651
+GC10YD8	Spaghetti Drainage	balkamper13	2	2	N40 43.408	W111 54.408
+GC215Q5	Rock-n-rolla	jamesgangut	4	1.5	N40 44.035	W111 55.488
+GC2D4B1	How Far We've Come	JAC0B	1	1.5	N40 42.744	W111 53.311
+GC3BW7W	Ritzy Rezzies to Cache	SLCatalyst	1	1.5	N40 43.129	W111 53.995
+GC22H3G	SCOTTY	GC2004	2	1.5	N40 43.193	W111 54.142
+GC1YNN9	Shafted	El Duderino Supremo (Adopted by: Chasing Blue Sky)	3.5	2.5	N40 39.682	W111 48.209
+GC20WAB	OWL #3 (r33)	jamesgangut	2	1.5	N40 42.057	W111 52.321
+GC23Y18	Cordelia Avenue	ldyches	2	1.5	N40 42.496	W111 53.121
+GC1CZ2F	technology	SirVesa	2.5	1.5	N40 43.003	W111 54.149
+GC1111G	its another one of these	balkamper13	1	1.5	N40 43.150	W111 54.410
+GC249BM	Lunch Break #10 (w21)	jamesgangut	1.5	1.5	N40 43.513	W111 55.031
+GC225DE	Crafty	Dshoney	1.5	1.5	N40 42.040	W111 52.552
+GC1HEQG	Forety - Love	Tinmanut	2	1.5	N40 43.961	W111 55.839
+GCN3X5	Cottonwood West	39Geezer	1.5	2	N40 39.478	W111 48.241
+GC23MHH	BFP	xumd	4	1.5	N40 41.719	W111 52.099
+GC2GJV0	Indy 700	snownomi	1.5	1	N40 41.821	W111 52.267
+GC39DJQ	Not-So-Secret Passageway	jtown52	1.5	1.5	N40 40.277	W111 49.750
+GC17HKC	The crossin' cache	vamedtech	1.5	2	N40 38.597	W111 46.914
+GC123J8	Are you friend or FOE	CJJRMA	1.5	1	N40 43.563	W111 55.367
+GCN3X9	Walk a Mile for a Camel	39Geezer	1.5	2	N40 39.308	W111 48.193
+GC2QAFM	_-ray	Dumbledore's Army 2006	1.5	1.5	N40 41.492	W111 51.946
+GC17Y6V	I can see clearly now were neighbors	TyOcci	2	1.5	N40 40.465	W111 50.256
+GC36P9A	dog walk	Dumbledore's Army 2006	2	2	N40 43.141	W111 54.803
+GC1WK1E	I Dare You	JamesgangUT	3	2	N40 41.813	W111 52.613
+GC127YY	I love Graffiti	balkamper13	1.5	2	N40 43.476	W111 55.499
+GC1B4MN	X-Men - Ability #1	rerb	1.5	1.5	N40 43.547	W111 55.630
+GC127YD	Tells of the Crypt	lil ninja	3	2	N40 43.404	W111 55.427
+GCJ1ZF	Cryptogram	39Geezer	1.5	2	N40 39.119	W111 48.176
+GC2JDZA	Happy Birthday Valerie!	HikingSeal	2.5	1.5	N40 41.504	W111 52.269
+GC1779P	NWP	AD0OR	1	1	N40 42.735	W111 54.412
+GC1HFGP	R2P - Jordon River Parkway Redwood Access	TinmanUT	1.5	1	N40 43.196	W111 55.244
+GC1791W	Reliability is always appealing!	TyOcci	1.5	1.5	N40 42.550	W111 54.259
+GC1XWZQ	Between the Tracks	Signsmith and Sandslinger	2	1	N40 42.909	W111 54.882
+GC1ZJ1K	I Threw A Brick Through A Window	milyrake	1.5	1	N40 40.792	W111 51.338
+GC37Z2D	We Deliver	Buffalobros	1.5	1.5	N40 42.119	W111 53.627
+GC1RBP2	Rockin' Robin	39Geezer	1.5	2.5	N40 39.000	W111 48.341
+GC249C0	Controls	GOATTER	1.5	1.5	N40 42.181	W111 53.762
+GCGBVW	Rockview	Sharktooth	1	2.5	N40 38.266	W111 47.159
+GCZ8E0	Beardsley place	khaki-t	1.5	1.5	N40 42.986	W111 55.249
+GC1W0DH	Is It Progress?	TinmanUT	3	1.5	N40 43.050	W111 55.353
+GC1HFQ2	Red Bump Duck	TinmanUT	1.5	1.5	N40 43.429	W111 56.015
+GC1EC1K	Commercial Church???	TinmanUT	2	1	N40 43.172	W111 55.637
+GC2D4VA	Stanley Yelnats	JAC0B	2	1.5	N40 39.108	W111 48.803
+GC2D55T	American Woman	JAC0B	2	1.5	N40 38.854	W111 48.382
+GC1G44Y	Just cuz im a kid dont mean im not tough	gus*gus08	3.5	1.5	N40 40.049	W111 50.419
+GC273YR	The Bachelor Pad	thebazookabeard and jason8888	1.5	1	N40 42.226	W111 54.126
+GC16X3P	Semi-Four	39Geezer	1.5	1.5	N40 38.667	W111 48.090
+GC163BH	Nursery Rhymes 101 #3	TyOcci	1.5	1.5	N40 39.668	W111 49.817
+GC2DBBF	Benchmark: AI5806  HENNA 	JAC0B	4	2	N40 38.000	W111 47.000
+GC1KCTX	16th Street Legacy House	AD0OR	2	1.5	N40 40.468	W111 51.256
+GC19HJM	SLS Undercover Cache	SirVesa	2.5	1	N40 41.572	W111 53.270
+GC298CP	OWL #22 (7333)	jamesgangut	1.5	1.5	N40 41.971	W111 53.952
+GC2AETF	Leaving the zone	beautiful143 & Strokin	3	1	N40 41.375	W111 52.963
+GC1FHA5	Sidewalk Forman	Twizzler & Lefty624	1	1	N40 39.750	W111 50.236
+GCY3Z4	Hastings Cutoff	balkamper13	1	1.5	N40 42.782	W111 55.412
+GC20XAC	OWL #9 (pb9)	jamesgangut	1.5	1.5	N40 42.489	W111 55.007
+GC212V8	Gas-N-Go	jamesgangut	1.5	1.5	N40 41.250	W111 52.959
+GC2D4BC	Redder	JAC0B	2	1.5	N40 38.553	W111 48.484
+GC178GJ	WWJC#1	balkamper13	2	1.5	N40 39.397	W111 49.952
+GC29QMN	Friggin Bushes	Cookiemonstr	4.5	1	N40 39.725	W111 50.587
+GC1VMN5	Dirty Bowels of SL, UT	SiDeTrAk, Vixenz, G-Diddy	2	1	N40 41.165	W111 53.124
+GC1CZ23	IMPOSSIBLE...	SirVesa	5	3	N40 41.382	W111 53.552
+GC240F3	Cache1	rerb	1.5	1.5	N40 40.297	W111 51.724
+GC2CGKY	Angry mediterranean	JAC0B	2	1.5	N40 40.432	W111 51.964
+GC24B52	Dino-buddy	jamesgangut	1.5	1.5	N40 42.996	W111 56.393
+GC31HQE	Cylindrical Cylinders	JAC0B	1.5	1.5	N40 38.466	W111 48.720
+GC22WGT	T.M.B.G.	jamesgangut	1.5	1.5	N40 40.210	W111 51.764
+GC1QYFX	Grandpa & Grandma's Acme Cache	Lance Thorup	1	1	N40 39.951	W111 51.367
+GC17HFV	The Red box DVD Trading Station	TyOcci	1.5	1.5	N40 40.438	W111 52.208
+GC2131B	Grandpa's Cache #3 (ts39)	jamesgangut	1.5	1.5	N40 41.272	W111 53.656
+GC2BMQN	Every Day's a Summer Day	JAC0B	2	1.5	N40 38.360	W111 48.710
+GC2VRW2	Watchful Eyes	ugh.group	2	2	N40 38.191	W111 48.452
+GCJJ9X	Stick'n 'round	Progneto	2	1	N40 37.919	W111 47.982
+GC28JT1	Ten Years' Cake Walk	eBarry	1	1	N40 41.372	W111 53.870
+GCJ3X2	Foreign Cache Cache	billybob7	3	1	N40 37.999	W111 48.151
+GC21YYN	OWL #16 (7s40)	jamesgangut	1.5	1.5	N40 41.000	W111 53.249
+GC253FQ	Whoa!  You are Definitely a 10! - #12	Chasing Blue Sky	2	1.5	N40 41.952	W111 54.881
+GC15VBR	Nursery Rhymes 101 #2	TyOcci	1.5	1.5	N40 39.099	W111 50.078
+GC129XF	Call Me a Maverik #6	SuperBee	2	1	N40 41.996	W111 55.003
+GC2VRPX	Trail break	Gagnethouse	1.5	1.5	N40 42.477	W111 55.868
+GC2W6T7	Another work cache	ugh.group	3	1	N40 38.076	W111 48.442
+GCRE28	Marking Your Territory	Darby Gill	2	1	N40 38.487	W111 49.158
+GC22N9M	scarey jerry	kevin starley	3.5	4	N40 39.873	W111 51.521
+GC28CQQ	Mini Stop	Numbers and Letters Guy	2	1.5	N40 41.210	W111 53.865
+GC2C35Y	Jr. Edjamacation - or is this fire edjamacation?	sarelles and h0tsh0t	2	1	N40 39.318	W111 50.692
+GC1NJ2B	Knudsen History Lesson	Fire Elemental	2.5	3.5	N40 38.312	W111 48.996
+GC15HBJ	Big Betsy Ross	Drums	3	1.5	N40 39.933	W111 51.789
+GC18FVM	Mom, do we have to place a cache?	TyOcci :]	1.5	1.5	N40 40.087	W111 52.077
+GC2TPEM	Somethin's Fishy Around Here	Fishy Old One	1.5	1.5	N40 37.960	W111 48.460
+GC28CT5	The Hobo Zoo	balkamper13	4	2	N40 41.209	W111 54.008
+GC1DV90	Where's Fuzzy?	Xumd	2.5	2.5	N40 37.753	W111 48.157
+GC323CW	Are there bears in Old Mill Park? (night cache)	Mom the Cook & cashnhubby	2	2.5	N40 37.737	W111 48.133
+GC1XA4H	MICRO TEST	Stinkyju	3.5	1.5	N40 41.357	W111 54.297
+GC1EAAZ	VISITING THE WORLD THROUGH GEOCACHING	Mom the Cook & cashnhubby	2.5	1.5	N40 37.700	W111 48.100
+GC17A75	dragging a log	Dumbledore's Army 2006	2	2	N40 40.929	W111 53.640
+GC28CRH	Dogwood	balkamper13	2	1.5	N40 41.279	W111 54.241
+GC26C24	April Fools Sudoku	shamywhamy	5	5	N40 37.762	W111 48.266
+GC28CRR	GUARDians of I-15	balkamper13	2	1.5	N40 41.208	W111 54.138
+GC21MH8	Vacancy	jamesgangut	1.5	1.5	N40 40.996	W111 53.809
+GCJW65	The Big Giant Head	rabbijoel	1	1	N40 42.169	W111 55.816
+GC1MHPT	Guarded Cache	Flatsypan	1.5	1.5	N40 41.694	W111 55.024
+GC12Q59	Thomasville's Potato Stash	001MAN & BornAgain	1	1	N40 41.127	W111 54.077
+GC1CB3C	Mia's Playhouse	sr22pilot	3	1.5	N40 38.024	W111 48.880
+GC212V6	It's Time	jamesgangut	2	2.5	N40 40.383	W111 52.981
+GC21B6Z	Grandpa's Cache #6 (539)	jamesgangut	1.5	1.5	N40 41.143	W111 54.324
+GCZJW2	Nellie Gato	Evoar	2	1	N40 41.325	W111 54.701
+GC19BCC	The Old Brinton Ward	AD0OR	2	2	N40 38.577	W111 50.031
+GCZTEW	Evel Knievel's worst nightmare	Evoar	1.5	1.5	N40 41.490	W111 54.987
+GC1VJM2	Behind the Cache	shamywhamy	1.5	1.5	N40 38.202	W111 49.405
+GC20X9R	Lunch Break #3 (vbs)	jamesgangut	1.5	1.5	N40 39.047	W111 50.969
+GC17XYA	Board & Block filled day # 30	TyOcci	1.5	1.5	N40 42.161	W111 56.270
+GC2FWCT	Molly	Hobo2	2.5	1.5	N40 40.801	W111 53.993
+GC2CCDM	Grandpa's Cache #8 (tsfc)	jamesgangut	1.5	1.5	N40 40.572	W111 53.630
+GC1VVPT	Land of The Lost Cache	shamywhamy	2.5	1.5	N40 38.377	W111 49.923
+GC2FA3V	Juicy Fruits #5 - Apple	39Geezer	1	1	N40 41.515	W111 55.280
+GC2V6QC	Benchmark: AE4652  SURVEYOR 1 	JAC0B	3	2	N40 40.333	W111 53.333
+GC1W0T2	Daddy Daughter Date	shamywhamy	2	2	N40 37.653	W111 48.786
+GC268PG	Hello My Friend, Hello....#2	pfeifferhorn	2.5	1.5	N40 37.462	W111 48.486
+GC1RCZP	edjamacation association	sarelles and H0tsh0t	2	1.5	N40 39.538	W111 52.019
+GC2MP8Y	WE Don't Do That! - #2	Chasing Blue Sky	2.5	2	N40 40.451	W111 53.691
+GC1N32C	First Class Cache	shamywhamy	1.5	1	N40 37.956	W111 49.476
+GC2E9GY	Nash's B-Day Cache 01	BuzzBoosters	1	1	N40 41.231	W111 55.059
+GC13MR6	sizzlin hot	Dumbledore's Army 2006	1.5	1.5	N40 41.890	W111 56.257
+GC283RC	Happy Birthday Bailee!!	jamesgangut	1.5	1.5	N40 40.455	W111 53.823
+GC13AKC	All most a CENTURY	Daboys24	1.5	1	N40 40.653	W111 54.214
+GC1VZ9B	Lonely Brick	shamywhamy	1.5	1.5	N40 37.674	W111 49.198
+GC1W95Y	Stop-n-Go	jamesgangut	1	1.5	N40 39.879	W111 52.972
+GC14H2K	Stick in the Mud	Drums	3	1.5	N40 40.935	W111 54.766
+GC20PT6	is something missing ?	Dumbledore's Army 2006	1.5	1.5	N40 40.005	W111 53.203
+GC268Q4	Dinner, a Movie, and a Quick Cache! #7	pfeifferhorn	2.5	1	N40 42.106	W111 56.770
+GC1YFC3	BSA nano	JamesgangUT	2	1.5	N40 39.731	W111 52.791
+GC215YW	Dino-boys	jamesgangut	2	1.5	N40 39.243	W111 51.970
+GC35YND	Lady Colts	jasoraso	1.5	1.5	N40 38.631	W111 50.931
+GC1GHTA	T's corner	tet838	1.5	1.5	N40 41.965	W111 56.607
+GC1QDAP	A Tough Nut to Crack	Sharktooth	1	2	N40 41.060	W111 55.098
+GC2BRJ7	Secondary Edjamacation	Sarelles and H0tsh0t	1.5	1.5	N40 38.797	W111 51.286
+GC1WK1V	Center Court	JamesgangUT	1.5	1.5	N40 39.902	W111 53.172
+GC19BC8	Downtown / Main Street USA: Murray, UT	AD0OR	1.5	1.5	N40 39.954	W111 53.288
+GC1T3Y0	Gur Pnpur	walkin' man	2	2.5	N40 40.955	W111 54.988
+GC25RP0	The Guard at Fontaine Bleu	pfeifferhorn	2	1	N40 38.419	W111 50.727
+GC142DM	Caveman need water.	Dumbledore's Army 2006	2	2	N40 38.058	W111 50.134
+GC2NJWM	Green Hornet	Troop1394	2	1.5	N40 39.547	W111 52.683
+GC2MCG6	evil coin center cache	preyas1 & maxwell	2	3	N40 38.281	W111 50.538
+GC1YXJ0	The Manor TB Hotel	2thomasjefferson2	1	1	N40 41.631	W111 56.225
+GC211FN	Powerball	jamesgangut	1.5	1.5	N40 40.452	W111 54.243
+GC1GHTD	Where's the beach	tet838	2	1.5	N40 41.783	W111 56.544
+GCYV5J	My Favorite Lunch Stop	Jeff The Geek.com	2	2	N40 40.516	W111 54.408
+GC20RG9	World Series 2009	jamesgangut	1.5	1.5	N40 39.754	W111 53.126
+GC215Z1	OWL #11 (ch9)	jamesgangut	2	2	N40 38.987	W111 51.893
+GC1NNQ5	shakespear #1	the crew of monkeys	1.5	1.5	N40 40.204	W111 53.969
+GC1Q5HQ	Tax Dollars at Work	Donny & Liz	2	1.5	N40 38.485	W111 51.055
+GC22Q4W	Still... Under Your Nose?	jamesgangut	3	2	N40 39.574	W111 52.916
+GC1GMGX	Pep ride	tet838	2	1.5	N40 41.817	W111 56.740
+GC17N74	Cease Fire ( MacGyver Cache # 87 )	AD0OR	2	1.5	N40 39.188	W111 52.294
+GC23Y1E	East Coast	ldyches	2	1.5	N40 39.778	W111 53.312
+GC38HPC	The Niece	JAC0B	1.5	1.5	N40 37.855	W111 50.055
+GC2TVKJ	By George, is That Poison Ivy	ugh.group	1.5	3	N40 39.179	W111 52.322
+GC37PFJ	I'm #1!	UofURed	3	3	N40 39.449	W111 52.783
+GC183AT	peak a boo i see you	Mom the Cook & cashnhubby	1.5	1.5	N40 39.373	W111 52.700
+GC29HCP	It must be a sign...	stinkyju	1.5	1.5	N40 37.470	W111 49.477
+GC2HJY6	Nothing Like Good Memories	Princess Daisies	2	1.5	N40 41.501	W111 56.372
+GC2131D	Mr. Tumnus	jamesgangut	1.5	1.5	N40 39.597	W111 53.144
+GC1DV6W	Who Smelt it...	Lyonden_ut	1.5	1.5	N40 39.769	W111 53.440
+GC12VP3	Easy for a caveman	Dumbledore's Army 2006	3	1.5	N40 38.077	W111 50.568
+GC3A4AY	9th Street Fresh	stinkyju	1.5	1.5	N40 38.964	W111 52.097
+GC299WD	The Park Center of Murray	jamesgangut	1.5	1.5	N40 39.526	W111 53.064
+GC17RA6	Umm I have no idea	TyOcci :]	2	1.5	N40 40.505	W111 54.722
+GC1FQ8R	Count your finger's not your toes	Mom the Cook & cashnhubby	3	2	N40 38.600	W111 51.500
+GC23Y1C	Goff Diesel Injection	ldyches	2	1.5	N40 39.949	W111 53.795
+GC1WK13	Chief Wasatch	JamesgangUT	1.5	1.5	N40 39.629	W111 53.284
+GC273XF	Flashlight Nite Cache II	xumd	2.5	2.5	N40 38.674	W111 51.680
+GCJVXV	Schispy's FTF Seafood Raffle # 4	schispy	2.5	1.5	N40 40.340	W111 54.514
+GC1D1KC	Sunday Funnies	Mom the Cook & cashnhubby	2.5	1.5	N40 38.263	W111 51.000
+GC1X6ZN	Game Night #5	Hiking Seal	3.5	1	N40 41.545	W111 56.582
+GC184Y2	Orange you glad I didn't say banana?	TyOcci	1.5	1.5	N40 40.643	W111 55.064
+GC38HPN	Challenge of the Century: Welcome to...	JAC0B	1.5	1.5	N40 37.700	W111 50.062
+GC1080T	Log Jam ( MacGyver Cache # 97 )	AD0OR	1.5	1.5	N40 40.000	W111 54.000
+GC10FR3	Evil...	Lyingden	3.5	2	N40 39.547	W111 53.247
+GC1DET0	SPECIAL DELIVERY	BEAUTY & THE GEEK	1	1	N40 40.505	W111 54.877
+GC2DY5T	Yellow Ribbon #23	snownomi	1.5	1.5	N40 37.360	W111 49.541
+GC1ZXT6	What have YOU read today?	Komatz	2	1	N40 37.449	W111 49.700
+GCG1C2	Rock Of Ages	Lone F. Wolf and BlueLeader	1	1	N40 38.918	W111 52.221
+GC1CG6M	So Here's To You	AD0OR	2.5	2	N40 39.454	W111 53.189
+GCX37B	Dragonfly Micro	The_Simpsons	2	1.5	N40 39.376	W111 53.088
+GC20RGD	The Rock	jamesgangut	2.5	1.5	N40 39.548	W111 53.384
+GC24B59	Mom #1 (Bowl of Cherries)	jamesgangut	1.5	1.5	N40 40.047	W111 54.234
+GC29AQ9	A Bird's-Eye View	BuzzBoosters	2	1.5	N40 38.380	W111 51.401
+GCQPM5	A Wanna Be Moat For A Wanna Be Castle	Twizzler & Minerals44	1.5	1	N40 37.818	W111 50.450
+GC218B8	Grandpa's Cache #5 (tsv)	jamesgangut	1.5	1.5	N40 39.701	W111 53.680
+GC15R59	Nursery Rhymes 101 #1	TyOcci	1.5	1.5	N40 37.563	W111 50.125
+GC23RXE	Verde #2	jamesgangut	1.5	1.5	N40 39.409	W111 53.283
+GC23G4R	The one that started it all	lyonden_ut	1.5	1.5	N40 39.902	W111 54.125
+GC3ADF1	Dead Respect	LxDxT	2.5	1	N40 38.705	W111 52.111
+GC1VF2K	Call Me a Maverik #5 Redone	SuperBee	1.5	1.5	N40 40.058	W111 54.431
+GC2131M	PED XING	jamesgangut	1.5	1.5	N40 39.466	W111 53.456
+GC23EHW	Don't Do That! - #22 - The Mother Lode	Chasing Blue Sky	2.5	1.5	N40 39.963	W111 54.344
+GC22HWG	Wicked......the cache continues	hjnielsen	3	3.5	N40 38.534	W111 51.970
+GC1QYHP	not on the beach	Dumbledore's Army 2006	1.5	1.5	N40 41.042	W111 56.223
+GC1BT09	Just what the Dr. Ordered #2	sjk755	1.5	1	N40 39.518	W111 53.660
+GC2362E	loco hopper	Dumbledore's Army 2006	1.5	2	N40 38.078	W111 51.212
+GC249V8	Admitting to Everything - Nifty Fifty Puzzle #8	lv2wj	2.5	1.5	N40 39.712	W111 53.998
+GCQY7Q	Go Tell The Spartans	lyonden_ut	1	1.5	N40 39.349	W111 53.396
+GC20X9P	OWL #7 (cws)	jamesgangut	1.5	1.5	N40 37.492	W111 50.259
+GC28RQ5	Lida's Cache	jamesgangut	1.5	1.5	N40 38.951	W111 52.737
+GC218BT	Nano on a bridge #1	jamesgangut	2.5	1.5	N40 39.962	W111 54.464
+GC1D2TM	The Cache Kiddies Cache	Wildfire, Tiny & the Cache Kiddies	1.5	1	N40 40.661	W111 55.751
+GC24ZZ8	Coach's Crash Course In Drivng	lyonden_ut	3	1.5	N40 39.209	W111 53.300
+GC2CGM0	Picture This! 009	JAC0B	4	2	N40 39.000	W111 53.000
+GCMXVE	Pokemon Center	Renaissance Man	2	1.5	N40 38.170	W111 51.602
+GC248DM	Independence Square	pfeifferhorn	1.5	2	N40 39.051	W111 53.155
+GC13MN9	Brittney Brittster's Duck, Duck, Goose Geocache	regisjohanns & Clover Caching Gang	3	3	N40 39.726	W111 54.319
+GC21F54	NOT another lamp post hide!  ;)	KG6EAR, 5150Joker, & easyeyes :)	1.5	1	N40 39.516	W111 53.968
+GC1KN6F	Euchre	kleptofamily	1.5	1.5	N40 39.392	W111 53.773
+GC2A9MD	One Dirty Little Cache!!!!	Xumd	4.5	2.5	N40 38.260	W111 51.861
+GC2140Y	Lunch Break #6 (k41)	jamesgangut	1.5	1.5	N40 40.986	W111 56.513
+GC2K9X8	Why So Powerful?!	BuzzBoosters	1.5	1	N40 37.887	W111 51.292
+GCYBEQ	Mastering Technology	Haa	1	1	N40 39.531	W111 54.109
+GC1H8DN	Tator's cache	Tator & GrandpaJohanns (Clover CachingGang)	2	2	N40 39.740	W111 54.496
+GC1KCM5	do your lips hurt	the crew of monkeys	2	1	N40 39.595	W111 54.264
+GC217G4	McFamilyZone	jamesgangut	1.5	1.5	N40 40.744	W111 56.277
+GC3BE49	Smith & Nephew	lv2wj	2	1	N40 38.737	W111 52.924
+GCQ9FG	American Washington Connection	SuperBee & NukeNic	1.5	1.5	N40 39.137	W111 53.614
+GC1EP3G	Flashlight Night Cache	xumd	2.5	2.5	N40 38.074	W111 51.816
+GC2NRXB	DUCKS!!	poke494	1.5	1.5	N40 39.730	W111 54.654
+GC2APHK	Is IT useful?	Mom the Cook & cashnhubby	2	2	N40 38.070	W111 51.850
+GC24A22	State Parks and Grab - Nifty Fifty Puzzle #9	lv2wj	1.5	1.5	N40 39.498	W111 54.302
+GC19PFY	Cache Call	SirVesa	1.5	1	N40 38.268	W111 52.204
+GCWHQ8	The Nature Center	SuperBee	1.5	1	N40 39.763	W111 54.757
+GC1E6BB	Jordan River Wetlands	PeanutsParents	2	1.5	N40 39.765	W111 54.765
+GC54B0	Cascades & Barricades	todtek	1.5	2	N40 37.845	W111 51.562
+GC15DRJ	ZAK tree	steve!	3.5	4.5	N40 37.138	W111 50.371
+GC203BD	Dude, where's my car(s)?	Chasing Blue Sky	1.5	1.5	N40 40.661	W111 56.373
+GCW5K0	BornAgain 1K	001man	2	1.5	N40 39.882	W111 55.063
+GC22WGM	Verde #1	jamesgangut	1.5	1.5	N40 37.490	W111 51.027
+GC1FN5T	Mr. Plow	Xumd	3.5	1.5	N40 37.982	W111 51.904
+GC1TNJ0	103 & Going Strong	lv2wj	1	1.5	N40 38.829	W111 53.400
+GC2T1XK	is this an old beaver dam?	abster95	2	1.5	N40 39.714	W111 54.905
+GC15DRP	a grape vine	steve!	5	1.5	N40 37.108	W111 50.485
+GC1A6WA	Just what the Dr. ordered #1	sjk755	1	1	N40 38.668	W111 53.150
+GC2ACTV	Alinco Costumes Rocks	littledlittleman	1.5	1	N40 39.013	W111 53.758
+GC1RQ8G	You Sank My Battleship!!!	Snape's Navy	1.5	1.5	N40 37.868	W111 51.823
+GC2WJT3	What's On TV? - Anytown USA #25	lv2wj	2	1.5	N40 39.172	W111 54.051
+GC257JP	Emergency Cache	shamywhamy	1.5	1.5	N40 38.667	W111 53.280
+GC2KCPD	Sesame St. Cache: Brought to You by the Letter V	Chasing Blue Sky	2	1.5	N40 40.481	W111 56.361
+GCJ63Z	Give a Pint	39Geezer	1	1	N40 37.867	W111 52.021
+GC2Z5E7	Got mail?	tktk11	1.5	1.5	N40 37.482	W111 51.372
+GC1H7TF	Camry's 100,000	lv2wj	2	1	N40 39.171	W111 54.269
+GC1878K	This is the place, for a city picnic that is!	TyOcci :]	1.5	1.5	N40 38.453	W111 53.057
+GC213YY	Mzblubrd's Holiday Letterbox #1	Mzblubrd	1.5	1.5	N40 38.358	W111 52.907
+GC184KJ	Quick Urban Multi	The_Simpsons	1.5	1.5	N40 38.519	W111 53.196
+GC2ZAFV	Firehouse 117	me&thegirlz	1.5	1.5	N40 40.333	W111 56.313
+GC2N923	Waymarking 200!	JAC0B	1.5	4	N40 37.758	W111 51.944
+GC2K6ZN	Sesame St. Cache: Brought to You by the Letter M	Chasing Blue Sky	1.5	1.5	N40 40.404	W111 56.439
+GC21YZ4	OWL #17 (7s59)	jamesgangut	1.5	1.5	N40 38.585	W111 53.366
+GC1RWCQ	Edjamacation Book Store	Sarelles and H0tsh0t	1	1	N40 37.353	W111 51.284
+GC2KB9Y	Sesame St. Cache: Brought to You by the Letter L	Chasing Blue Sky	1.5	1.5	N40 40.453	W111 56.546
+GC23N9T	Past the speed of light	Dumbledore's-Top	1.5	1.5	N40 38.800	W111 53.768
+GC2VJVP	Belt Route Crystal	fhays00	3	2.5	N40 37.838	W111 52.129
+GC1ZFXR	Latter Day #11	rerb	1.5	2	N40 37.260	W111 51.182
+GC1MGCK	Madam, I'm Adam	AD0OR	3	2.5	N40 39.007	W111 54.185
+GC1FT1P	unicache	tet838	1.5	1.5	N40 37.905	W111 52.308
+GC20T6J	OWL #2 (s54)	jamesgangut	1.5	1.5	N40 39.223	W111 54.565
+GC1BFAP	English Fort	AD0OR	1.5	1.5	N40 40.246	W111 56.322
+GC1BMP0	SLCC - The Test	Lurpyman	1.5	1.5	N40 40.249	W111 56.449
+GC23EY9	Lunch Break #9 (fpm)	jamesgangut	1.5	1.5	N40 38.208	W111 53.010
+GC2T1X4	will you marry me?	abster95	2	2	N40 39.506	W111 55.235
+GC1BMPR	SLCC - ELS - The Lab	Lurpyman	1	1	N40 40.171	W111 56.364
+GC1JA96	Tar Baby	gotwings	1.5	1	N40 39.421	W111 55.108
+GC185KJ	TiBurLin Runaround	The_Simpsons	1.5	1.5	N40 38.391	W111 53.370
+GC1HV24	Superbee ->3000!<-	Ash!	2	1.5	N40 39.790	W111 55.779
+GC2N924	Waymarking 300!	JAC0B	1	4	N40 37.382	W111 51.695
+GC22PCA	the power of PIe.	balkamper13	3	1.5	N40 37.266	W111 51.503
+GCPPQG	Watertight	sharktooth	1	1	N40 40.040	W111 56.223
+GCGVVE	To Protect And Serve	Damenace	1	1	N40 38.776	W111 54.099
+GC1AEZJ	Fort Union History	AD0OR	2	2	N40 37.281	W111 51.574
+GC215AE	She's Nuts About Flowers!	Chasing Blue Sky	2	1.5	N40 38.341	W111 53.391
+GC1TZPD	DAY AT THE MUSEUM	CIRCLE T EXPEDITION	2	1	N40 39.849	W111 55.991
+GC12DQK	Bryceman's Cache	Boilermaker1	1.5	1.5	N40 39.944	W111 56.152
+GC3ADFN	Apple Taco's???	LxDxT	1	1	N40 38.269	W111 53.312
+GC248X1	The Spy #1 - Competition	Mzblubrd	3	1.5	N40 37.421	W111 51.881
+GC184VC	Satisfaction Guaranteed?	DrJay	1.5	1.5	N40 38.065	W111 53.011
+GC2T1WQ	Lego box	poke494	1.5	2	N40 39.405	W111 55.288
+GC1TW5A	Fishing Hole	Boilermaker & Bryceman & Chiefcook	3.5	1.5	N40 37.937	W111 52.964
+GC1XVPD	Skipping Rocks With My Buddy	Slushy and her buddy Superbee	1.5	1.5	N40 39.369	W111 55.442
+GC2NF25	Pokemon Forever!!	poke494	1	1.5	N40 39.244	W111 55.238
+GC1890H	Happy New Year Cache 2008	SuperBee	1.5	1.5	N40 38.141	W111 53.369
+GC27J4G	Welcome To: Union Fort!	JAC0B	2.5	2	N40 37.143	W111 51.709
+GC24ND2	The Spy #2 - Hoppers	Mzblubrd	2	1.5	N40 37.367	W111 52.116
+GC24YGK	Our Solar System - Saturn	lyonden_ut	1	1.5	N40 38.247	W111 53.630
+GC28ZCN	Is That A Rat	gostboy	3	1	N40 39.583	W111 55.908
+GC35X97	A Snippet of a Cache	SuperBee	1.5	1.5	N40 39.364	W111 55.559
+GCK1CD	Bridge Over (un)Troubled Waters	lyonden_ut	1	1	N40 39.224	W111 55.395
+GCTTAG	Hidden From Sight	Fire Elemental	1.5	1	N40 37.245	W111 52.050
+GC1BVHV	Another Cache for Ash	Mr. B.	1.5	1.5	N40 39.482	W111 55.867
+GC2QADT	Bark Says the Lark	Thatslushy2u and Co. (aka Jessica)	1.5	1.5	N40 39.370	W111 55.699
+GC115PG	The Utah tweets hangout	Mom the Cook & cashnhubby	1.5	1.5	N40 37.929	W111 53.268
+GC1XTJ4	Greener on the Other Side of the ???	Signsmithllc	1	1	N40 39.595	W111 56.126
+GC1Y6HH	Maggie-The Simpsons	kleptofamily	2	2	N40 38.407	W111 54.164
+GC1TTBC	Slushy and the Teach	Slushy and Mr. B.	1.5	1.5	N40 39.220	W111 55.565
+GC1A47T	I Can See My House From Here!	Thatslushy2u	1.5	1.5	N40 39.377	W111 55.857
+GC12PWT	35 over 215	SuperBee	1.5	1.5	N40 37.997	W111 53.567
+GC20XA2	OWL #8 (gc7)	jamesgangut	1.5	1.5	N40 37.285	W111 52.364
+GC1ARWZ	Superbees 2.5K	Ash	1.5	1.5	N40 39.102	W111 55.457
+GCQE88	Now It's a Micro	SuperBee	1	1	N40 38.644	W111 54.700
+GCJH2W	Quail Trax Cache	billybob7	2.5	1	N40 38.165	W111 53.948
+GC1P083	water ways	Dumbledore's Army 2006	1.5	2	N40 39.167	W111 55.748
+GC1FBRF	Urban Whale?	Haa	1	1.5	N40 37.676	W111 53.317
+GC2P4WW	Waymarking History Challenge	JAC0B	1.5	1.5	N40 38.015	W111 53.921
+GC1TTN6	Slushy 500	SuperBee	1.5	2	N40 38.754	W111 55.180
+GC33BKE	Little Green Rangers	awesome troopers	2	2	N40 38.949	W111 55.522
+GC2Z05B	Upsidaisy Cache	KingK66	1	1	N40 38.458	W111 54.812
+GC2F15X	Here's Bill Hickman	Bill's Descendant	1	1	N40 38.849	W111 55.486
+GCWY1H	Where's Bill Hickman?	SuperBee	2	1	N40 38.731	W111 55.343
+GC124TM	Tatters Buy Clop	gotwings	1.5	1.5	N40 38.630	W111 55.253
+GCYMD6	Melly's Cache	SuperBee	1.5	1	N40 38.197	W111 54.731
+GC1KW1F	Liam's cache	SuperBee	1	1.5	N40 38.038	W111 54.478

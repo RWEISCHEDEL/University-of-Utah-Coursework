@@ -1,0 +1,6 @@
+# Similar to "show_pid.whoosh", but uses the PID to
+# terminate a sleeping process
+
+/bin/sleep 1000 @ $sleep | /bin/kill $sleep
+
+# Expected output:
