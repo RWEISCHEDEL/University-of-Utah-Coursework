@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\robert\downloads\hw2-ship\audiocoding\main.cpp(103): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  002-Transform-Coding-Audio.vcxproj -> C:\Users\Robert\Downloads\HW2-ship\AudioCoding\x64\Debug\002-Transform-Coding-Audio.exe
+  002-Transform-Coding-Audio.vcxproj -> C:\Users\Robert\Downloads\HW2-ship\AudioCoding\x64\Debug\002-Transform-Coding-Audio.pdb (Partial PDB)
