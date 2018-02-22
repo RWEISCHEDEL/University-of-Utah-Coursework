@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\robert\downloads\hw4-ship\hw4-ship\main.cpp(481): warning C4018: '<': signed/unsigned mismatch
+  004-Skinning.vcxproj -> C:\Users\Robert\Downloads\HW4-ship\HW4-ship\x64\Debug\004-Skinning.exe
+  004-Skinning.vcxproj -> C:\Users\Robert\Downloads\HW4-ship\HW4-ship\x64\Debug\004-Skinning.pdb (Partial PDB)

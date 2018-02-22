@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(124): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(143): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(181): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(182): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(183): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\robert\downloads\hw5-ship\hw5-ship\main.cpp(184): warning C4305: 'argument': truncation from 'double' to 'const float'
+  005-Raytracing.vcxproj -> C:\Users\Robert\Downloads\HW5-ship\HW5-ship\x64\Debug\005-Raytracing.exe
+  005-Raytracing.vcxproj -> C:\Users\Robert\Downloads\HW5-ship\HW5-ship\x64\Debug\005-Raytracing.pdb (Partial PDB)

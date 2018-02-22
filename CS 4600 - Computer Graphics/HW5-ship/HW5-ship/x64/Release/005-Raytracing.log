@@ -1,0 +1,16 @@
+﻿  main.cpp
+main.cpp(65): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+main.cpp(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+main.cpp(94): warning C4305: 'argument': truncation from 'double' to 'const float'
+main.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(219): warning C4305: 'argument': truncation from 'double' to 'const float'
+main.cpp(220): warning C4305: 'argument': truncation from 'double' to 'const float'
+main.cpp(221): warning C4305: 'argument': truncation from 'double' to 'const float'
+main.cpp(222): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Generating code
+  16 of 660 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    25 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  005-Raytracing.vcxproj -> C:\Users\Robert\Downloads\HW5-ship\HW5-ship\x64\Release\005-Raytracing.exe
+  005-Raytracing.vcxproj -> C:\Users\Robert\Downloads\HW5-ship\HW5-ship\x64\Release\005-Raytracing.pdb (Full PDB)
