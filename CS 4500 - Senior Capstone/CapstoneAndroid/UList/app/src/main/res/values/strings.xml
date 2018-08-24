@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UList</string>
+
+    <string-array name="categories_arrays">
+        <item></item>
+        <item>Book</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="locations_arrays">
+        <item></item>
+        <item>Union Building</item>
+        <item>Warnock Engineering Building</item>
+        <item>Merrill Engineering Building</item>
+        <item>Kennecott Engineering Building</item>
+    </string-array>
+
+    <string-array name="hours_arrays">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="minutes_arrays">
+        <item></item>
+        <item>00</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="ampm_arrays">
+        <item></item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_meeting_map_selection">Map</string>
+
+</resources>
